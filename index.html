@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeTodoInformatica</title>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- js-->
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>DeTodo Informatica</h1>
+        <p id="cotizacion" class="cotizacion"></p> <!-- Elemento para mostrar la cotización -->
+    </header>
+    
+    <main>
+        <!-- Sección de inicio de sesión -->
+        <section id="login-section">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <label for="nombre">Ingresá tu nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="contraseña">Ingresá tu contraseña:</label>
+                <input type="password" id="contraseña" required>
+                
+                <button type="submit" id="btn-ingresar">Ingresar</button>
+                <div id="error-mensaje" style="display: none; color: rgb(255, 0, 34);">Credenciales incorrectas. Intenta de nuevo.</div>
+            </form>
+        </section>
+
+        <!-- Sección del carrito (oculta inicialmente) -->
+        <section id="carrito-section" style="display: none;">
+            <h3>Carrito de Compras</h3>
+            <ul id="lista-articulos"></ul>
+        </section>
+    </main>
+</body>
+</html>
