@@ -1,4 +1,5 @@
-body {
+
+body { 
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f8ff;
@@ -8,35 +9,51 @@ header {
     background-color: #4caf50;
     color: white;
     padding: 20px;
-    position: relative; /* Necesario para posicionar el elemento hijo */
+    position: relative;
 }
 
-
-
 .cotizacion {
-    position: absolute; /* Posiciona el elemento de manera absoluta */
-    top: 20px; /* Ajusta la distancia desde la parte superior */
-    right: 20px; /* Ajusta la distancia desde la derecha */
-    color: white; /* Color del texto de la cotización */
-    font-weight: bold; /* Hacer el texto más destacado */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-weight: bold;
 }
 
 main {
-    margin: 20px auto; /* Centrar el contenido */
-    max-width: 600px; /* Limitar el ancho máximo */
+    margin: 20px auto;
+    max-width: 600px;
 }
+
 form { 
     margin: auto;
     max-width: 150px;
 }
 
-
-
 input {
     margin: 10px 0;
-    padding: 10px; /* Aumentar el padding para mayor comodidad */
-    width: 100%; /* Hacer que los inputs ocupen el 100% del ancho */
-    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.carri {
+    text-align: left; /* Alinear el contenido a la izquierda */
+    margin: 5px 0; /* Margen superior e inferior de 5px */
+}
+
+.btn-carrito {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #4caf50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-carrito:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
 }
 
 button {
@@ -45,26 +62,21 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-#error-mensaje {
-    margin-top: 10px;
-    color: red; /* Cambiar a rojo para mayor visibilidad */
-    background-color: #ffe6e6; /* Fondo suave para el mensaje de error */
-    border: 1px solid red; /* Borde rojo */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-}
+
 
 #carrito-section {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #4caf50;
     border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco para mayor contraste */
 }
 
 #lista-articulos {
@@ -72,9 +84,12 @@ button:hover {
     padding: 0;
 }
 
-#lista-articulos li {
+.articulo {
     padding: 10px;
-    border-bottom: 1px solid #9b9696;
-    background-color: #f9f9f9; /* Cambiar a un fondo más claro para mayor legibilidad */
-    border-radius: 5px; /* Bordes red */
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: left; /* Alinear el contenido a la izquierda */
 }

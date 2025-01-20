@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeTodoInformatica</title>
-    
     <link rel="stylesheet" href="./css/styles.css">
-
-    <!-- js-->
     <script defer src="js/main.js"></script>
 </head>
 <body>
     <header>
         <h1>DeTodo Informatica</h1>
-        <p id="cotizacion" class="cotizacion"></p> <!-- Elemento para mostrar la cotización -->
+        <p id="cotizacion" class="cotizacion"></p> <!-- cotización dolar dia -->
     </header>
-    
+
     <main>
         <!-- Sección de inicio de sesión -->
         <section id="login-section">
@@ -28,14 +25,32 @@
                 <input type="password" id="contraseña" required>
                 
                 <button type="submit" id="btn-ingresar">Ingresar</button>
-                <div id="error-mensaje" style="display: none; color: rgb(255, 0, 34);">Credenciales incorrectas. Intenta de nuevo.</div>
+                <div id="error-mensaje"> </div>
             </form>
         </section>
 
-        <!-- Sección del carrito (oculta inicialmente) -->
+        <!-- Sección de productos -->
+        <section id="productos-section" style="display: none;">
+            <div class="carri"> <a href="./page/carrito.html"> Ir al carrito</a> 
+            </div>
+
+            <h3>Productos</h3>
+            <input type="text" id="buscador" placeholder="Buscar productos...">
+            <div id="lista-articulos">
+                <!-- Los productos se agregarán aquí dinámicamente -->
+            </div>
+
+            
+        </section>
+
+        <!-- Sección del carrito -->
         <section id="carrito-section" style="display: none;">
-            <h3>Carrito de Compras</h3>
-            <ul id="lista-articulos"></ul>
+            <h4>Carrito de Compras</h4>
+            <ul id="carrito-lista">
+                <!-- Los artículos se agregarán aquí dinámicamente -->
+            </ul>
+            <p id="total-carrito">Total: $0.00</p>
+            <button id="finalizar-compra">Finalizar Compra</button>
         </section>
     </main>
 </body>

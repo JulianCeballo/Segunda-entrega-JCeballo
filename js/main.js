@@ -8,11 +8,18 @@ const usuarioValido = {
 const nombreInput = document.getElementById("nombre");
 const contraseñaInput = document.getElementById("contraseña");
 const btnIngresar = document.getElementById("btn-ingresar");
-const errorMsg = document.getElementById("error-mensaje");
+const errorMsgContainer = document.getElementById("error-mensaje"); // Contenedor para mensajes de error
+
 const loginSection = document.getElementById("login-section");
-const carritoSection = document.getElementById("carrito-section");
+
+
+const productosSection = document.getElementById("productos-section");
 const listaArticulos = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
+const buscador = document.getElementById("buscador");
+const carritoSection = document.getElementById("carrito-section");
+const carritoLista = document.getElementById("carrito-lista");
+const totalCarrito = document.getElementById("total-carrito");
 
 const precioDolar = 1059;
 
@@ -33,24 +40,29 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 // Evento para manejar el ingreso
 btnIngresar.addEventListener("click", (event) => {
-    event.preventDefault();
-    errorMsg.style.display = "none"; // Ocultar mensaje de error
+    event.preventDefault(); // Prevenir el envío del formulario
+
+    // Limpiar mensajes de error anteriores
+    errorMsgContainer.innerHTML = " "; // Limpiar el contenido del contenedor de errores
+
     const nombre = nombreInput.value.trim();
     const contraseña = contraseñaInput.value.trim();
 
     if (nombre === usuarioValido.nombre && contraseña === usuarioValido.contraseña) {
-        // Mostrar el carrito y ocultar el login
+        // Mostrar la sección de productos y ocultar el login
         loginSection.style.display = "none";
-        carritoSection.style.display = "block";
+        productosSection.style.display = "block";
 
         // Mostrar la cotización del dólar
         cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar.toFixed(2)}`;
 
-        // Renderizar los artículos en el carrito
+        // Renderizar los artículos en la sección de productos
         renderizarArticulos();
     } else {
-        // Mostrar mensaje de error
-        errorMsg.style.display = "block";
+        // Crear un nuevo elemento para el mensaje de error
+        const accesoIncorrecto = document.createElement("div");
+        accesoIncorrecto.innerHTML = `<p>Usuario Incorrecto</p>`; // Estilo en línea para el color
+        errorMsgContainer.appendChild(accesoIncorrecto); // Agregar el mensaje al contenedor
     }
 });
 
@@ -59,15 +71,12 @@ const renderizarArticulos = () => {
     listaArticulos.innerHTML = ""; // Limpiar contenido previo
 
     articulos.forEach(articulo => {
-        // Calcular el precio en pesos
-        const precioEnPesos = articulo.precio * precioDolar;
-
         // Crear un elemento para cada artículo
         const articuloElement = document.createElement("div");
         articuloElement.classList.add("articulo");
         articuloElement.innerHTML = `
             <h3>${articulo.nombre}</h3>
-            <p>Precio: $${precioEnPesos.toFixed(2)}</p>
+            <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
             <button class="btn-agregar" data-id="${articulo.id}">Añadir al carrito</button>
         `;
         listaArticulos.appendChild(articuloElement);
@@ -87,37 +96,8 @@ const renderizarArticulos = () => {
 const agregarAlCarrito = (idArticulo) => {
     // Buscar el artículo por ID
     const articulo = articulos.find(item => item.id === idArticulo);
-
     if (articulo) {
-        // Verificar si ya está en el carrito
-        const articuloEnCarrito = carrito.find(item => item.id === idArticulo);
-        if (articuloEnCarrito) {
-            // Incrementar la cantidad
-            articuloEnCarrito.cantidad++;
-        } else {
-            // Agregar el artículo con cantidad inicial 1
-            carrito.push({ ...articulo, cantidad: 1 });
-        }
-
-        // Guardar el carrito en localStorage
-        localStorage.setItem("carrito", JSON.stringify(carrito));
-
-        // Mostrar mensaje de éxito (puedes agregar un pequeño indicador en pantalla si lo prefieres)
-        console.log(`${articulo.nombre} añadido al carrito.`);
+        // Lógica para agregar el artículo al carrito
+        // ...
     }
 };
-
-// Renderizar el carrito (si quieres mostrar los productos añadidos)
-const renderizarCarrito = () => {
-    const carritoHTML = document.getElementById("carrito-contenido");
-    carritoHTML.innerHTML = ""; // Limpiar el contenido del carrito
-
-    carrito.forEach(item => {
-        const itemElement = document.createElement("li");
-        itemElement.textContent = `${item.nombre} - Cantidad: ${item.cantidad}`;
-        carritoHTML.appendChild(itemElement);
-    });
-};
-
-// Cargar el carrito al iniciar la aplicación
-renderizarCarrito();
