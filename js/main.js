@@ -11,12 +11,9 @@ const btnIngresar = document.getElementById("btn-ingresar");
 const errorMsgContainer = document.getElementById("error-mensaje"); // Contenedor para mensajes de error
 
 const loginSection = document.getElementById("login-section");
-
-
 const productosSection = document.getElementById("productos-section");
 const listaArticulos = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
-const buscador = document.getElementById("buscador");
 const carritoSection = document.getElementById("carrito-section");
 const carritoLista = document.getElementById("carrito-lista");
 const totalCarrito = document.getElementById("total-carrito");
@@ -43,7 +40,7 @@ btnIngresar.addEventListener("click", (event) => {
     event.preventDefault(); // Prevenir el envío del formulario
 
     // Limpiar mensajes de error anteriores
-    errorMsgContainer.innerHTML = " "; // Limpiar el contenido del contenedor de errores
+    errorMsgContainer.innerHTML = ""; // Limpiar el contenido del contenedor de errores
 
     const nombre = nombreInput.value.trim();
     const contraseña = contraseñaInput.value.trim();
@@ -61,7 +58,7 @@ btnIngresar.addEventListener("click", (event) => {
     } else {
         // Crear un nuevo elemento para el mensaje de error
         const accesoIncorrecto = document.createElement("div");
-        accesoIncorrecto.innerHTML = `<p>Usuario Incorrecto</p>`; // Estilo en línea para el color
+        accesoIncorrecto.innerHTML = `<p>Usuario Incorrecto</p>`;
         errorMsgContainer.appendChild(accesoIncorrecto); // Agregar el mensaje al contenedor
     }
 });
@@ -73,21 +70,17 @@ const renderizarArticulos = () => {
     articulos.forEach(articulo => {
         // Crear un elemento para cada artículo
         const articuloElement = document.createElement("div");
-        articuloElement.classList.add("articulo");
         articuloElement.innerHTML = `
             <h3>${articulo.nombre}</h3>
             <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
-            <button class="btn-agregar" data-id="${articulo.id}">Añadir al carrito</button>
+            <button id="btn-agregar-${articulo.id}">Añadir al carrito</button>
         `;
         listaArticulos.appendChild(articuloElement);
-    });
 
-    // Añadir eventos a los botones de "Añadir al carrito"
-    const botonesAgregar = document.querySelectorAll(".btn-agregar");
-    botonesAgregar.forEach(boton => {
-        boton.addEventListener("click", (e) => {
-            const idArticulo = parseInt(e.target.getAttribute("data-id"));
-            agregarAlCarrito(idArticulo);
+        // Agregar evento al botón de "Añadir al carrito"
+        const btnAgregar = document.getElementById(`btn-agregar-${articulo.id}`);
+        btnAgregar.addEventListener("click", () => {
+            agregarAlCarrito(articulo.id);
         });
     });
 };
@@ -97,7 +90,10 @@ const agregarAlCarrito = (idArticulo) => {
     // Buscar el artículo por ID
     const articulo = articulos.find(item => item.id === idArticulo);
     if (articulo) {
-        // Lógica para agregar el artículo al carrito
-        // ...
+        // Verificar si el artículo ya está en el carrito
+        const articuloEnCarrito = carrito.find(item => item.id === articulo.id);
+        if (articuloEnCarrito) {
+        }
     }
-};
+}
+            // Si ya está, aumentar
