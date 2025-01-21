@@ -13,6 +13,7 @@ const cotizacion = document.getElementById("cotizacion");
 const carritoLista = document.getElementById("carrito-lista");
 const totalCarrito = document.getElementById("total-carrito");
 const precioDolar = 1059;
+const buscador = document.getElementById("buscador");  // Campo de búsqueda
 
 // artículos
 const articulos = [
@@ -47,7 +48,9 @@ btnIngresar.addEventListener("click", (e) => {
 
 // Renderizar Artículos
 const renderizarArticulos = (items) => {
-    listaArticulos.innerHTML = "";
+    listaArticulos.innerHTML = "";  // Limpiar lista de artículos
+
+    // Renderizar todos los artículos
     items.forEach(({ id, nombre, precio }) => {
         const articuloHTML = `
             <div class="articulo">
@@ -59,15 +62,24 @@ const renderizarArticulos = (items) => {
     });
 };
 
+// Búsqueda
+buscador.addEventListener("input", () => {
+    const filtro = buscador.value.toLowerCase();  // Obtener el texto de la búsqueda
+    const articulosFiltrados = articulos.filter(({ nombre }) => 
+        nombre.toLowerCase().includes(filtro)  // Filtrar artículos que contengan el texto
+    );
+    renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
+});
+
 // Añadir al Carrito
 const agregarAlCarrito = (id) => {
-    const articulo = articulos.find((item) => item.id === id); // Encontrar ID
-    const existente = carrito.find((item) => item.id === id);  // Verificar si ya está en el carrito
+    const articulo = articulos.find((item) => item.id === id);  // Encontrar ID
+    const existente = carrito.find((item) => item.id === id);  // Verificar 
 
     if (existente) {
-        existente.cantidad += 1; // Si ya existe, aumentar la cantidad
+        existente.cantidad += 1;  // Si ya existe, aumentar la cantidad
     } else {
-        carrito.push({ ...articulo, cantidad: 1 }); // Si no existe, agregarlo con cantidad 1
+        carrito.push({ ...articulo, cantidad: 1 });  // Si no existe, agregarlo con cantidad 1
     }
 
     // Actualizar carrito en el localStorage
@@ -76,9 +88,9 @@ const agregarAlCarrito = (id) => {
     // Mostrar mensaje en el DOM 
     const mensajeCarrito = document.getElementById('mensaje-carrito');
     mensajeCarrito.innerHTML = "Artículo añadido al carrito.";
-    mensajeCarrito.style.display = "block"; // Mostrar el mensaje
+    mensajeCarrito.style.display = "block";  // Mostrar el mensaje
     setTimeout(() => {
-        mensajeCarrito.style.display = "none"; // Ocultar después de 2 segundos
+        mensajeCarrito.style.display = "none";  // Ocultar después de 2 s
     }, 2000);
 
     // Renderizar el carrito actualizado
@@ -87,7 +99,7 @@ const agregarAlCarrito = (id) => {
 
 // Renderizar Carrito
 const renderizarCarrito = () => {
-    carritoLista.innerHTML = ""; // Limpiar el contenido del carrito
+    carritoLista.innerHTML = "";  // Limpiar carrito
     let total = 0;
 
     carrito.forEach(({ nombre, precio, cantidad }) => {
@@ -98,8 +110,8 @@ const renderizarCarrito = () => {
                 <p>Cantidad: ${cantidad}</p>
             </li>`;
         carritoLista.innerHTML += itemHTML;
-        total += (precio * cantidad); // Calcular el total
+        total += (precio * cantidad);  // Calcular el total
     });
 
-    totalCarrito.innerHTML = `Total: $${(total * precioDolar).toFixed(2)}`; // Mostrar total en el DOM
+    totalCarrito.innerHTML = `Total: $${(total * precioDolar).toFixed(2)}`;  // Mostrar total en el DOM
 };
