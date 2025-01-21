@@ -3,30 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeTodoInformatica - Carrito</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <script defer src="js/main.js"></script>
+    <title>Carrito - DeTodoInformatica</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../js/main.js"></script>
 </head>
 <body>
     <header>
         <h1>Carrito de Compras</h1>
-        <p id="cotizacion" class="cotizacion"></p> <!-- Elemento para mostrar la cotización -->
+        <p id="cotizacion" class="cotizacion"></p>
     </header>
 
     <main>
         <div>
-            <ul>
-                <li><a class="articulos" href="../index.html">Artículos</a></li>
-                 <!-- Sin espacio antes de index.html -->
-            </ul>
+            <a class="btn-carrito" href="../index.html">Volver a Artículos</a>
         </div>
-
-        <!-- Lista del carrito -->
         <div id="carrito-contenido">
             <h3>Artículos en el carrito:</h3>
-            <ul id="carrito-lista">
-                <!-- Los artículos del carrito se agregarán aquí dinámicamente -->
-            </ul>
+            <ul id="carrito-lista"></ul>
             <p id="total-carrito">Total: $0.00</p>
             <button id="finalizar-compra">Finalizar Compra</button>
         </div>

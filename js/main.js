@@ -1,26 +1,20 @@
 // Credenciales
-const usuarioValido = {
-    nombre: "julian",
-    contraseña: "123"
-};
+const usuarioValido = { nombre: "julian", contraseña: "123" };
 
-// Capturar elementos del DOM
+// Elementos DOM
 const nombreInput = document.getElementById("nombre");
 const contraseñaInput = document.getElementById("contraseña");
 const btnIngresar = document.getElementById("btn-ingresar");
-const errorMsgContainer = document.getElementById("error-mensaje"); // Contenedor para mensajes de error
-
+const errorMsgContainer = document.getElementById("error-mensaje");
 const loginSection = document.getElementById("login-section");
 const productosSection = document.getElementById("productos-section");
 const listaArticulos = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
-const carritoSection = document.getElementById("carrito-section");
 const carritoLista = document.getElementById("carrito-lista");
 const totalCarrito = document.getElementById("total-carrito");
-
 const precioDolar = 1059;
 
-// Array de artículos
+// artículos
 const articulos = [
     { id: 1, nombre: "Teclado", precio: 120 },
     { id: 2, nombre: "Mouse", precio: 50 },
@@ -29,71 +23,83 @@ const articulos = [
     { id: 5, nombre: "Motherboard", precio: 500 },
     { id: 6, nombre: "Notebook", precio: 1000 },
     { id: 7, nombre: "Computadora", precio: 2000 },
-    { id: 8, nombre: "Pendrive", precio: 21 }
+    { id: 8, nombre: "Pendrive", precio: 21 },
+    { id: 9, nombre: "Cable HDMI", precio: 15 }
 ];
 
 // Carrito de compras (se inicializa con lo que haya en localStorage)
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-// Evento para manejar el ingreso
-btnIngresar.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevenir el envío del formulario
+// Ingreso
+btnIngresar.addEventListener("click", (e) => {
+    e.preventDefault();
+    errorMsgContainer.innerHTML = "";
 
-    // Limpiar mensajes de error anteriores
-    errorMsgContainer.innerHTML = ""; // Limpiar el contenido del contenedor de errores
-
-    const nombre = nombreInput.value.trim();
-    const contraseña = contraseñaInput.value.trim();
-
-    if (nombre === usuarioValido.nombre && contraseña === usuarioValido.contraseña) {
-        // Mostrar la sección de productos y ocultar el login
+    if (nombreInput.value === usuarioValido.nombre && contraseñaInput.value === usuarioValido.contraseña) {
         loginSection.style.display = "none";
         productosSection.style.display = "block";
-
-        // Mostrar la cotización del dólar
-        cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar.toFixed(2)}`;
-
-        // Renderizar los artículos en la sección de productos
-        renderizarArticulos();
+        cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
+        renderizarArticulos(articulos);
     } else {
-        // Crear un nuevo elemento para el mensaje de error
-        const accesoIncorrecto = document.createElement("div");
-        accesoIncorrecto.innerHTML = `<p>Usuario Incorrecto</p>`;
-        errorMsgContainer.appendChild(accesoIncorrecto); // Agregar el mensaje al contenedor
+        errorMsgContainer.textContent = "Credenciales incorrectas.";
     }
 });
 
-// Renderizar artículos en el DOM
-const renderizarArticulos = () => {
-    listaArticulos.innerHTML = ""; // Limpiar contenido previo
-
-    articulos.forEach(articulo => {
-        // Crear un elemento para cada artículo
-        const articuloElement = document.createElement("div");
-        articuloElement.innerHTML = `
-            <h3>${articulo.nombre}</h3>
-            <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
-            <button id="btn-agregar-${articulo.id}">Añadir al carrito</button>
-        `;
-        listaArticulos.appendChild(articuloElement);
-
-        // Agregar evento al botón de "Añadir al carrito"
-        const btnAgregar = document.getElementById(`btn-agregar-${articulo.id}`);
-        btnAgregar.addEventListener("click", () => {
-            agregarAlCarrito(articulo.id);
-        });
+// Renderizar Artículos
+const renderizarArticulos = (items) => {
+    listaArticulos.innerHTML = "";
+    items.forEach(({ id, nombre, precio }) => {
+        const articuloHTML = `
+            <div class="articulo">
+                <h3>${nombre}</h3>
+                <p>Precio: $${(precio * precioDolar).toFixed(2)}</p>
+                <button id="agregar-${id}" onclick="agregarAlCarrito(${id})">Añadir al carrito</button>
+            </div>`;
+        listaArticulos.innerHTML += articuloHTML;
     });
 };
 
-// Función para agregar un artículo al carrito
-const agregarAlCarrito = (idArticulo) => {
-    // Buscar el artículo por ID
-    const articulo = articulos.find(item => item.id === idArticulo);
-    if (articulo) {
-        // Verificar si el artículo ya está en el carrito
-        const articuloEnCarrito = carrito.find(item => item.id === articulo.id);
-        if (articuloEnCarrito) {
-        }
+// Añadir al Carrito
+const agregarAlCarrito = (id) => {
+    const articulo = articulos.find((item) => item.id === id); // Encontrar ID
+    const existente = carrito.find((item) => item.id === id);  // Verificar si ya está en el carrito
+
+    if (existente) {
+        existente.cantidad += 1; // Si ya existe, aumentar la cantidad
+    } else {
+        carrito.push({ ...articulo, cantidad: 1 }); // Si no existe, agregarlo con cantidad 1
     }
-}
-            // Si ya está, aumentar
+
+    // Actualizar carrito en el localStorage
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+
+    // Mostrar mensaje en el DOM 
+    const mensajeCarrito = document.getElementById('mensaje-carrito');
+    mensajeCarrito.innerHTML = "Artículo añadido al carrito.";
+    mensajeCarrito.style.display = "block"; // Mostrar el mensaje
+    setTimeout(() => {
+        mensajeCarrito.style.display = "none"; // Ocultar después de 2 segundos
+    }, 2000);
+
+    // Renderizar el carrito actualizado
+    renderizarCarrito();
+};
+
+// Renderizar Carrito
+const renderizarCarrito = () => {
+    carritoLista.innerHTML = ""; // Limpiar el contenido del carrito
+    let total = 0;
+
+    carrito.forEach(({ nombre, precio, cantidad }) => {
+        const itemHTML = `
+            <li>
+                <h4>${nombre}</h4>
+                <p>Precio: $${(precio * precioDolar).toFixed(2)}</p>
+                <p>Cantidad: ${cantidad}</p>
+            </li>`;
+        carritoLista.innerHTML += itemHTML;
+        total += (precio * cantidad); // Calcular el total
+    });
+
+    totalCarrito.innerHTML = `Total: $${(total * precioDolar).toFixed(2)}`; // Mostrar total en el DOM
+};

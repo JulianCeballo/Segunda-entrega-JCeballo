@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"> 
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,47 +10,29 @@
 <body>
     <header>
         <h1>DeTodo Informatica</h1>
-        <p id="cotizacion" class="cotizacion"></p> <!-- cotización dolar dia -->
+        <p id="cotizacion" class="cotizacion"></p>
     </header>
 
     <main>
-        <!-- Sección de inicio de sesión -->
         <section id="login-section">
             <h2>Iniciar Sesión</h2>
             <form id="login-form">
                 <label for="nombre">Ingresá tu nombre:</label>
                 <input type="text" id="nombre" required>
-                
                 <label for="contraseña">Ingresá tu contraseña:</label>
                 <input type="password" id="contraseña" required>
-                
                 <button type="submit" id="btn-ingresar">Ingresar</button>
-                <div id="error-mensaje"> </div>
+                <div id="error-mensaje"></div>
             </form>
         </section>
-
-        <!-- Sección de productos -->
+    
         <section id="productos-section" style="display: none;">
-            <div class="carri"> <a href="./page/carrito.html"> Ir al carrito</a> 
+            <div class="carri">
+                <a class="btn-carrito" href="./page/carrito.html">Ir al carrito</a>
             </div>
-
             <h3>Productos</h3>
             <input type="text" id="buscador" placeholder="Buscar productos...">
-            <div id="lista-articulos">
-                <!-- Los productos se agregarán aquí dinámicamente -->
-            </div>
-
-            
-        </section>
-
-        <!-- Sección del carrito -->
-        <section id="carrito-section" style="display: none;">
-            <h4>Carrito de Compras</h4>
-            <ul id="carrito-lista">
-                <!-- Los artículos se agregarán aquí dinámicamente -->
-            </ul>
-            <p id="total-carrito">Total: $0.00</p>
-            <button id="finalizar-compra">Finalizar Compra</button>
+            <div id="lista-articulos"></div>
         </section>
     </main>
 </body>
