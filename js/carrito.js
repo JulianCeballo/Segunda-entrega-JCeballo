@@ -1,25 +1,24 @@
-let carriSeleccion = document.getElementById("carrito-contenido")
-
-
-let carritoStorage = localStorage.getItem("carritoArticulos")
-
-
 const carritoLista = document.getElementById("carrito-lista");
+
+const carrito = document.getElementById("carrito-contenido");
+
 const carritoTotal = document.getElementById("total-carrito");
 
+let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
+function renderizarCarrito(carritoItems) {
+    carritoLista.innerHTML = ""; // Limpiar antes de renderizar
+    let total = 0;
 
-
-carritoStorage = JSON.parse(carritoStorage)
-
-function renderizarcarrito ( carritoItems) {
-    carritoItems.forEach(articulos => {
-        const carri = document.createElement("div")
-        carri.innerHTML = `<h3>$ {articulos.nombre}</h3>`
-                         `<p> $ {articulos.precio}</p>`   
-                             
-        carriSeleccion.appendChild(carri)
+    carritoItems.forEach((articulo) => {
+        const item = document.createElement("li");
+        item.innerHTML = `<h3>${articulo.nombre}</h3>
+                            <p>Precio: $${articulo.precio}</p> `;
+        carritoLista.appendChild(item);
+        total += articulo.precio;
     });
 
+    carritoTotal.innerText = `Total: $${total}`;
 }
-renderizarcarrito(carritoStorage)
+
+renderizarCarrito(carritoStorage);

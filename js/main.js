@@ -1,7 +1,3 @@
-
-        
-       
-    // Artículos
 const articulos = [
     { id: 1, nombre: "Teclado", precio: 120 },
     { id: 2, nombre: "Mouse", precio: 50 },
@@ -15,64 +11,62 @@ const articulos = [
 ];
 
 
-// Elementos DOM
 
-let carritoArticulos = []
 
-const productosSection = document.getElementById("productos-section");
+let carritoArticulos = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
-const precioDolar = 1067
-const precioDolarElement = document.getElementById("precio-dolar");
+const productosSection = document.getElementById("lista-articulos");
+
+
 const cotizacion = document.getElementById("cotizacion");
+const precioDolar = 1067;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
 
 
+// funcion mostrar articulos renderizar
 
-// Función para renderizar artículos
-function renderizarArticulos(articulosArray) {
-    articulosArray.forEach((articulos) => {
+function renderizarArticulos(articulos) {
+    productosSection.innerHTML = ""; // Limpiar antes de renderizar
+    articulos.forEach((articulo) => {
         const card = document.createElement("div");
-        card.innerHTML = `<h3>${articulos.nombre}</h3>
-                          <p>$${(articulos.precio * precioDolar).toFixed(2)}</p> 
-                          <button class="articulosagregar" id="${articulos.id}">Agregar al carrito</button>`;
-        productosSection.appendChild(card)
+        card.className = "articulo";
+        card.innerHTML = `<h3>${articulo.nombre}</h3>
+                          <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
+                        <button class="articulosagregar" id="${articulo.id}">Agregar al carrito</button>`;
+        productosSection.appendChild(card);
     });
-    addcartButton()
+    addCartButton();
 }
 
-console.log(articulos)
 
-// Inicializar renderizado de artículos
+// Búsqueda
+buscador.addEventListener("input", () => {
+    const filtro = buscador.value.toLowerCase();  // Obtener el texto de la búsqueda
+    const articulosFiltrados = articulos.filter(({ nombre }) => 
+        nombre.toLowerCase().includes(filtro)  // Filtrar artículos que contengan el texto
+    );
+    renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
+});
+
+
+console.log(carritoArticulos);
+
+function addCartButton() {
+    const buttons = document.querySelectorAll(".articulosagregar");
+    buttons.forEach((button) => {
+        button.onclick = (e) => {
+            const articuloId = e.currentTarget.id;
+            const articuloSeleccionado = articulos.find((art) => art.id == articuloId);
+            carritoArticulos.push(articuloSeleccionado);
+
+            localStorage.setItem("carritoArticulos", JSON.stringify(carritoArticulos));
+          
+        };
+    });
+}
+
 renderizarArticulos(articulos);
-
-console.log(articulos)
-
-// Agregar evento a los botones de agregar al carrito
-function addcartButton () {
-
-    addcartButton = document.querySelectorAll( ".articulosagregar")
-    addcartButton.forEach(button => {
-        button.onclick = (e)=> {
-            const articuloId = e.currentTarget.id
-            const seleccionArticulo = articulos.find( articulos => articulos.id == articuloId)
-            carritoArticulos.push(seleccionArticulo)
-            
-            localStorage.setItem("carritoArticulos",JSON.stringify(carritoArticulos) )
-       
-
-
-
-
-        }
-    
-    })
-
- }
-
-
-
-
 
 
 
