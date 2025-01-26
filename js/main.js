@@ -1,6 +1,5 @@
 
         
-        
        
     // Artículos
 const articulos = [
@@ -16,10 +15,11 @@ const articulos = [
 ];
 
 
-
 // Elementos DOM
 
 let carritoArticulos = []
+
+const productosSection = document.getElementById("productos-section");
 
 const precioDolar = 1067
 const precioDolarElement = document.getElementById("precio-dolar");
@@ -27,13 +27,11 @@ const cotizacion = document.getElementById("cotizacion");
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
 
-const productosSection = document.getElementById("productos-section");
-
 
 
 // Función para renderizar artículos
 function renderizarArticulos(articulosArray) {
-    articulosArray.forEach(articulos => {
+    articulosArray.forEach((articulos) => {
         const card = document.createElement("div");
         card.innerHTML = `<h3>${articulos.nombre}</h3>
                           <p>$${(articulos.precio * precioDolar).toFixed(2)}</p> 
@@ -42,6 +40,8 @@ function renderizarArticulos(articulosArray) {
     });
     addcartButton()
 }
+
+console.log(articulos)
 
 // Inicializar renderizado de artículos
 renderizarArticulos(articulos);
@@ -53,7 +53,7 @@ function addcartButton () {
 
     addcartButton = document.querySelectorAll( ".articulosagregar")
     addcartButton.forEach(button => {
-        button.onclik = (e)=> {
+        button.onclick = (e)=> {
             const articuloId = e.currentTarget.id
             const seleccionArticulo = articulos.find( articulos => articulos.id == articuloId)
             carritoArticulos.push(seleccionArticulo)
