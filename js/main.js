@@ -1,5 +1,4 @@
-
-        
+       
        
     // Artículos
 const articulos = [
