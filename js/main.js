@@ -1,6 +1,3 @@
-       
-       
-    // Artículos
 const articulos = [
     { id: 1, nombre: "Teclado", precio: 120 },
     { id: 2, nombre: "Mouse", precio: 50 },
@@ -13,66 +10,70 @@ const articulos = [
     { id: 9, nombre: "Cable HDMI", precio: 15 }
 ];
 
+let carritoArticulos = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
-// Elementos DOM
-
-let carritoArticulos = []
-
-const productosSection = document.getElementById("productos-section");
-
-const precioDolar = 1067
-const precioDolarElement = document.getElementById("precio-dolar");
+const productosSection = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
+const precioDolar = 1067;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
-
-
-
 // Función para renderizar artículos
-function renderizarArticulos(articulosArray) {
-    articulosArray.forEach((articulos) => {
+function renderizarArticulos(articulos) {
+    productosSection.innerHTML = ""; // Limpiar antes de renderizar
+    articulos.forEach((articulo) => {
         const card = document.createElement("div");
-        card.innerHTML = `<h3>${articulos.nombre}</h3>
-                          <p>$${(articulos.precio * precioDolar).toFixed(2)}</p> 
-                          <button class="articulosagregar" id="${articulos.id}">Agregar al carrito</button>`;
-        productosSection.appendChild(card)
+        card.className = "articulo";
+        card.innerHTML = `<h3>${articulo.nombre}</h3>
+                          <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
+                          <button class="articulosagregar" id="${articulo.id}">Agregar al carrito</button>`;
+        productosSection.appendChild(card);
     });
-    addcartButton()
+    addCartButton();
 }
 
-console.log(articulos)
+// Búsqueda
+const buscador = document.getElementById("buscador");
+buscador.addEventListener("input", () => {
+    const filtro = buscador.value.toLowerCase();  // Obtener el texto de la búsqueda
+    const articulosFiltrados = articulos.filter(({ nombre }) => 
+        nombre.toLowerCase().includes(filtro)  // Filtrar artículos que contengan el texto
+    );
+    renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
+});
+
+// Función para agregar eventos a los botones de agregar al carrito
+function addCartButton() {
+    const buttons = document.querySelectorAll(".articulosagregar");
+    buttons.forEach((button) => {
+        button.onclick = (e) => {
+            const articuloId = e.currentTarget.id;
+            const articuloSeleccionado = articulos.find((art) => art.id == articuloId);
+            const articuloEnCarrito = carritoArticulos.find((art) => art.id == articuloId);
+
+            if (articuloEnCarrito) {
+                articuloEnCarrito.cantidad++;
+            } else {
+                carritoArticulos.push({ ...articuloSeleccionado, cantidad: 1 });
+            }
+
+            localStorage.setItem("carritoArticulos", JSON.stringify(carritoArticulos));
+            mostrarMensajeCarrito();
+        };
+    });
+}
+
+// Función para mostrar un mensaje cuando se añade un artículo al carrito
+function mostrarMensajeCarrito() {
+    const mensajeCarrito = document.getElementById("mensaje-carrito");
+    mensajeCarrito.style.display = "block";
+    mensajeCarrito.innerHTML = "Artículo añadido al carrito.";
+    setTimeout(() => {
+        mensajeCarrito.style.display = "none";
+    }, 2000);
+}
 
 // Inicializar renderizado de artículos
 renderizarArticulos(articulos);
-
-console.log(articulos)
-
-// Agregar evento a los botones de agregar al carrito
-function addcartButton () {
-
-    addcartButton = document.querySelectorAll( ".articulosagregar")
-    addcartButton.forEach(button => {
-        button.onclick = (e)=> {
-            const articuloId = e.currentTarget.id
-            const seleccionArticulo = articulos.find( articulos => articulos.id == articuloId)
-            carritoArticulos.push(seleccionArticulo)
-            
-            localStorage.setItem("carritoArticulos",JSON.stringify(carritoArticulos) )
-       
-
-
-
-
-        }
-    
-    })
-
- }
-
-
-
-
-
 
 
    
