@@ -10,22 +10,14 @@ const articulos = [
     { id: 9, nombre: "Cable HDMI", precio: 15 }
 ];
 
-
-
-
 let carritoArticulos = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
 const productosSection = document.getElementById("lista-articulos");
-
-
 const cotizacion = document.getElementById("cotizacion");
 const precioDolar = 1067;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
-
-
-// funcion mostrar articulos renderizar
-
+// Función para renderizar artículos
 function renderizarArticulos(articulos) {
     productosSection.innerHTML = ""; // Limpiar antes de renderizar
     articulos.forEach((articulo) => {
@@ -33,14 +25,14 @@ function renderizarArticulos(articulos) {
         card.className = "articulo";
         card.innerHTML = `<h3>${articulo.nombre}</h3>
                           <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
-                        <button class="articulosagregar" id="${articulo.id}">Agregar al carrito</button>`;
+                          <button class="articulosagregar" id="${articulo.id}">Agregar al carrito</button>`;
         productosSection.appendChild(card);
     });
     addCartButton();
 }
 
-
 // Búsqueda
+const buscador = document.getElementById("buscador");
 buscador.addEventListener("input", () => {
     const filtro = buscador.value.toLowerCase();  // Obtener el texto de la búsqueda
     const articulosFiltrados = articulos.filter(({ nombre }) => 
@@ -49,25 +41,39 @@ buscador.addEventListener("input", () => {
     renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
 });
 
-
-console.log(carritoArticulos);
-
+// Función para agregar eventos a los botones de agregar al carrito
 function addCartButton() {
     const buttons = document.querySelectorAll(".articulosagregar");
     buttons.forEach((button) => {
         button.onclick = (e) => {
             const articuloId = e.currentTarget.id;
             const articuloSeleccionado = articulos.find((art) => art.id == articuloId);
-            carritoArticulos.push(articuloSeleccionado);
+            const articuloEnCarrito = carritoArticulos.find((art) => art.id == articuloId);
+
+            if (articuloEnCarrito) {
+                articuloEnCarrito.cantidad++;
+            } else {
+                carritoArticulos.push({ ...articuloSeleccionado, cantidad: 1 });
+            }
 
             localStorage.setItem("carritoArticulos", JSON.stringify(carritoArticulos));
-          
+            mostrarMensajeCarrito();
         };
     });
 }
 
-renderizarArticulos(articulos);
+// Función para mostrar un mensaje cuando se añade un artículo al carrito
+function mostrarMensajeCarrito() {
+    const mensajeCarrito = document.getElementById("mensaje-carrito");
+    mensajeCarrito.style.display = "block";
+    mensajeCarrito.innerHTML = "Artículo añadido al carrito.";
+    setTimeout(() => {
+        mensajeCarrito.style.display = "none";
+    }, 2000);
+}
 
+// Inicializar renderizado de artículos
+renderizarArticulos(articulos);
 
 
    
