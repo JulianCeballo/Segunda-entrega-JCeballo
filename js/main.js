@@ -1,14 +1,4 @@
-const articulos = [
-    { id: 1, nombre: "Teclado", precio: 120 },
-    { id: 2, nombre: "Mouse", precio: 50 },
-    { id: 3, nombre: "Parlantes", precio: 200 },
-    { id: 4, nombre: "Micrófono", precio: 150 },
-    { id: 5, nombre: "Motherboard", precio: 500 },
-    { id: 6, nombre: "Notebook", precio: 1000 },
-    { id: 7, nombre: "Computadora", precio: 2000 },
-    { id: 8, nombre: "Pendrive", precio: 21 },
-    { id: 9, nombre: "Cable HDMI", precio: 15 }
-];
+const articulos = []; 
 
 let carritoArticulos = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
@@ -16,6 +6,19 @@ const productosSection = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
 const precioDolar = 1067;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
+
+// ✅ Cargamos productos desde JSON
+fetch("./db/data.json")
+    .then(response => response.json())
+    .then(data => {
+        // Actualizamos la variable `articulos` con los datos del `fetch`
+        articulos.push(...data);
+        renderizarArticulos(articulos);  // Renderizamos los productos cargados en el DOM
+    })
+    .catch(error => {
+        // Mostrar un mensaje en el DOM si hay error al cargar los productos
+        productosSection.innerHTML = "<p>Hubo un error al cargar los productos. Intenta de nuevo más tarde.</p>";
+    });
 
 // Función para renderizar artículos
 function renderizarArticulos(articulos) {
@@ -71,9 +74,3 @@ function mostrarMensajeCarrito() {
         mensajeCarrito.style.display = "none";
     }, 2000);
 }
-
-// Inicializar renderizado de artículos
-renderizarArticulos(articulos);
-
-
-   

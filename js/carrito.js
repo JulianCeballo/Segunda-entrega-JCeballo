@@ -1,10 +1,13 @@
 // Elementos del DOM
+
+
 const carritoLista = document.getElementById("carrito-lista");
 const carritoTotal = document.getElementById("total-carrito");
 const eliminarCarritoBtn = document.querySelector("#eliminar-carrito");
 const finalizarCompraBtn = document.querySelector("#finalizar-compra");
 
 let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
+
 
 
 // Función para renderizar el carrito
