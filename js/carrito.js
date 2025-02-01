@@ -1,14 +1,10 @@
 // Elementos del DOM
-
-
 const carritoLista = document.getElementById("carrito-lista");
 const carritoTotal = document.getElementById("total-carrito");
 const eliminarCarritoBtn = document.querySelector("#eliminar-carrito");
 const finalizarCompraBtn = document.querySelector("#finalizar-compra");
 
 let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
-
-
 
 // Función para renderizar el carrito
 function renderizarCarrito() {
@@ -25,6 +21,7 @@ function renderizarCarrito() {
         const item = document.createElement("li");
         item.innerHTML = `
             <h3>${articulo.nombre}</h3>
+            <img src="${articulo.imagenes}" alt="${articulo.nombre}" style="width: 100px; height: 100px;">
             <p>Precio: $${(articulo.precio * articulo.cantidad).toFixed(2)}</p>
             <p>Cantidad: ${articulo.cantidad}</p>
             <button class="eliminar-articulo" data-id="${articulo.id}">Eliminar</button>
@@ -72,4 +69,3 @@ finalizarCompraBtn.addEventListener("click", finalizarCompra);
 
 // Renderizar carrito al cargar la página
 renderizarCarrito();
-

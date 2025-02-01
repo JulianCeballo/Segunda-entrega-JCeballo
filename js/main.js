@@ -27,6 +27,7 @@ function renderizarArticulos(articulos) {
         const card = document.createElement("div");
         card.className = "articulo";
         card.innerHTML = `<h3>${articulo.nombre}</h3>
+                          <img src="${articulo.imagenes}" alt="${articulo.nombre}" style="width: 100px; height: 100px;">
                           <p>Precio: $${(articulo.precio * precioDolar).toFixed(2)}</p>
                           <button class="articulosagregar" id="${articulo.id}">Agregar al carrito</button>`;
         productosSection.appendChild(card);
