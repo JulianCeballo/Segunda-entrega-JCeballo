@@ -1,1130 +1,337 @@
 [
   {
-    "ID": 1795,
-    "Nombre": "Gabinete Corsair Carbide Spec 05 Negro/Gris",
-    "Precio normal": "639243,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/03/CC-9011138-WW_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/4259_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/4257_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/4256_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/4255_800.jpg"
+      "id": 1795,
+      "nombre": "Gabinete Corsair Carbide Spec 05 Negro/Gris",
+      "precio": 595.46,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/03/CC-9011138-WW_800.jpg"
   },
   {
-    "ID": 1796,
-    "Nombre": "XIAOMI MI TV STICK",
-    "Precio normal": "201923,64",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/03/6179_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/5015_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/5016_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/5017_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/MDZ-24-AA_800-COLLAGE.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/03/xiaomi-mi-tv-stick-1080p-hdmi-wifi-bluetooth-android-tv.jpg"
+      "id": 1796,
+      "nombre": "XIAOMI MI TV STICK",
+      "precio": 187.96,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/03/6179_800.jpg"
   },
   {
-    "ID": 1798,
-    "Nombre": "EXTENSOR RANGO TP LINK WA850RE 300Mbps",
-    "Precio normal": 68400,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WA850REAR-04.jpg"
+      "id": 1798,
+      "nombre": "EXTENSOR RANGO TP LINK WA850RE 300Mbps",
+      "precio": 63.67,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WA850REAR-04.jpg"
   },
   {
-    "ID": 1897,
-    "Nombre": "PARLANTE BT JBL FLIP 5  WATERPROOF",
-    "Precio normal": 222300,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4509_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4507_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4506_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4508_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/lifestyle_3.png"
+      "id": 1897,
+      "nombre": "PARLANTE BT JBL FLIP 5 WATERPROOF",
+      "precio": 206.98,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4509_800.jpg"
   },
   {
-    "ID": 1905,
-    "Nombre": "PARLANTE BT JBL GO 2",
-    "Precio normal": 140220,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/07/6925281948527_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/3592_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/3590_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/JBL-GO2-BLUE_800.jpg"
+      "id": 1905,
+      "nombre": "PARLANTE BT JBL GO 2",
+      "precio": 130.51,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/07/6925281948527_800.jpg"
   },
   {
-    "ID": 1916,
-    "Nombre": "Xiaomi Mi True Wireless Earbuds Basic 2",
-    "Precio normal": "134132,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/07/earbuds-xiaomi-mi-true-wireles-basic-s1-4c4b174ae2f323a5cd16080875805030-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/6934177709968_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/4688_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/4687_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/07/auricular-xiaomi-redmi-earbuds-basic-s-inalambricos-bluetooth-50-4hs-calidad-caja-power-bank-mod-2020.jpg"
+      "id": 1916,
+      "nombre": "Xiaomi Mi True Wireless Earbuds Basic 2",
+      "precio": 124.87,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/07/earbuds-xiaomi-mi-true-wireles-basic-s1-4c4b174ae2f323a5cd16080875805030-640-0.jpg"
   },
   {
-    "ID": 1946,
-    "Nombre": "PARLANTE BT JBL GO 3",
-    "Precio normal": 96900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/954585-MLA26148880591_102017-F.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281975523_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281975707_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281975509_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/JBL-GO3GRN_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281975653_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281975714_800.jpg"
+      "id": 1946,
+      "nombre": "PARLANTE BT JBL GO 3",
+      "precio": 90.22,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/954585-MLA26148880591_102017-F.jpg"
   },
   {
-    "ID": 1954,
-    "Nombre": "Auricular BluetoothJBL T110 in Ear Negro",
-    "Precio normal": 72504,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4522_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4522_400-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4523_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4524_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4525_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/JBL-T110BTBLK_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/preview_57a1653edb11ee2015049caeb54a67e4_collage.jpg"
+      "id": 1954,
+      "nombre": "Auricular Bluetooth JBL T110 in Ear Negro",
+      "precio": 67.52,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4522_400.jpg"
   },
   {
-    "ID": 1964,
-    "Nombre": "Monopatín Eléctrico Dayama GoTrax V2",
-    "Precio normal": 845880,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/798135511814_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4660_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4661_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4662_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4663_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/monopatin.jpg"
+      "id": 1964,
+      "nombre": "Monopatín Eléctrico Dayama GoTrax V2",
+      "precio": 787.43,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/798135511814_800.jpg"
   },
   {
-    "ID": 1971,
-    "Nombre": "Roku 3930 Se",
-    "Precio normal": "129298,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-04-at-15.56.02.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4223_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4224_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4225_800.jpg"
+      "id": 1971,
+      "nombre": "Roku 3930 Se",
+      "precio": 120.39,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-04-at-15.56.02.jpeg"
   },
   {
-    "ID": 1977,
-    "Nombre": "TABLET HDC T7I-232 7\" IPS 1024*600 - ALLWINNER A133 - 2/32GB - CON FUNDA DE SILICONA ROJA",
-    "Precio normal": 119700,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512262_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6796_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6797_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6798_800.jpg"
+      "id": 1977,
+      "nombre": "TABLET HDC T7I-232 7\" IPS 1024*600 - ALLWINNER A133 - 2/32GB - CON FUNDA DE SILICONA ROJA",
+      "precio": 111.42,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512262_800.jpg"
   },
   {
-    "ID": 1998,
-    "Nombre": "Auricular Bluetooth Hook Ear Moonki Sound 616BT",
-    "Precio normal": 24168,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135511098_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4115_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4114_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4113_800.jpg"
+      "id": 1998,
+      "nombre": "Auricular Bluetooth Hook Ear Moonki Sound 616BT",
+      "precio": 22.50,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135511098_800.jpg"
   },
   {
-    "ID": 2004,
-    "Nombre": "PARLANTE PORTÁTIL MOONKI SOUND L2077BT",
-    "Precio normal": "109118,52",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512248_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512231_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512255_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512033_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/5880_800.jpg"
+      "id": 2004,
+      "nombre": "PARLANTE PORTÁTIL MOONKI SOUND L2077BT",
+      "precio": 101.63,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512248_800.jpg"
   },
   {
-    "ID": 2010,
-    "Nombre": "PARLANTE POTENCIADO MOONKI SOUND MS-X265BT",
-    "Precio normal": 283860,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6800_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6801_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/00000MA-265BLT50000432839MA-265BLT50-3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6799_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/7798135512590_800.jpg"
+      "id": 2010,
+      "nombre": "PARLANTE POTENCIADO MOONKI SOUND MS-X265BT",
+      "precio": 264.39,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6800_800.jpg"
   },
   {
-    "ID": 2027,
-    "Nombre": "AURICULAR GAMING JBL QUANTUM 200",
-    "Precio normal": 78546,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281969553_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/JBL_Quantum_200_Product-Image_Cushion.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/JBL_Quantum_200_Product-Image_Detail.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/JBL_Quantum_200_Product-Image_Side-Hero-Mic-Up.png"
+      "id": 2027,
+      "nombre": "AURICULAR GAMING JBL QUANTUM 200",
+      "precio": 73.10,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6925281969553_800.jpg"
   },
   {
-    "ID": 2040,
-    "Nombre": "Parlante Moonki Portátil Bluetooth MS-900 IluminacionLed",
-    "Precio normal": "316600,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135510800_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4394_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4395_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4396_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4397_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/4398_800.jpg"
+      "id": 2040,
+      "nombre": "Parlante Moonki Portátil Bluetooth MS-900 IluminacionLed",
+      "precio": 294.73,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135510800_800.jpg"
   },
   {
-    "ID": 2050,
-    "Nombre": "Parlante Moonki Portátil Bluetooth MS LED1200W",
-    "Precio normal": 433200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512460_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6715_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT001253394mic.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/6713_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT001338807Remote.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT001092998631.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT000592709629.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT000692709630.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT001192998632.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/0000MS-LED1200BT0002666221200-a.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135510572_800.jpg"
+      "id": 2050,
+      "nombre": "Parlante Moonki Portátil Bluetooth MS LED1200W",
+      "precio": 403.35,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/7798135512460_800-1.jpg"
   },
   {
-    "ID": 2061,
-    "Nombre": "Parlante Potenciado Moonki Sound Ms-1600b",
-    "Precio normal": 342000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/7798135512477_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/6695_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/000MS-LEDB1600BT001149328mic.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/000MS-LEDB1600BT0006396011600-f.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/000MS-LEDB1600BT001239569Remote.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/000MS-LEDB1600BT0008537851600-h.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/000MS-LEDB1600BT0002957041000-b.jpg"
+      "id": 2061,
+      "nombre": "Parlante Potenciado Moonki Sound Ms-1600b",
+      "precio": 318.34,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/7798135512477_800.jpg"
   },
   {
-    "ID": 2070,
-    "Nombre": "Torre De Sonido Moonki Sound MW-M2823LT",
-    "Precio normal": 748980,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT22150MW-M2823LT.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT0001948811.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT0002948812.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT0003948823.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT0004948824.jpg"
+      "id": 2070,
+      "nombre": "Torre De Sonido Moonki Sound MW-M2823LT",
+      "precio": 697.09,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/08/000000MW-M2823LT22150MW-M2823LT.jpg"
   },
   {
-    "ID": 2078,
-    "Nombre": "STEREO DOBLE DIN BLAUPUNKT BERLIN  6.2\" +PAR DE PARLANTES",
-    "Precio normal": "530487,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5246_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5246_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5247_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/BERLIN-BUNDLE_800.jpg"
+      "id": 2078,
+      "nombre": "STEREO DOBLE DIN BLAUPUNKT BERLIN 6.2\" +PAR DE PARLANTES",
+      "precio": 493.83,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5246_800.jpg"
   },
   {
-    "ID": 2084,
-    "Nombre": "Amplificador Boss AR1200W.2 2 Can Puneteable A1",
-    "Precio normal": 145008,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/2_213.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/6048_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/6049_400.jpg"
+      "id": 2084,
+      "nombre": "Amplificador Boss AR1200W.2 2 Can Puneteable A1",
+      "precio": 135.07,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/2_213.jpg"
   },
   {
-    "ID": 2097,
-    "Nombre": "PARLANTE BOSS 6\"x9\"CH6930 3V 400W 4 Ohms",
-    "Precio normal": "131111,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/392_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/1911_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/1912_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/392_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/391_800.jpg"
+      "id": 2097,
+      "nombre": "PARLANTE BOSS 6\"x9\"CH6930 3V 400W 4 Ohms",
+      "precio": 122.07,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/392_800.jpg"
   },
   {
-    "ID": 2102,
-    "Nombre": "Parlante Boss 6,5\" CH6530 3V 300Watts 4-Ohm",
-    "Precio normal": "77337,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/791489104937_800-1.jpg"
+      "id": 2102,
+      "nombre": "Parlante Boss 6,5\" CH6530 3V 300Watts 4-Ohm",
+      "precio": 71.99,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/791489104937_800-1.jpg"
   },
   {
-    "ID": 2104,
-    "Nombre": "Stereo + Parlantes Pioneer MXTX3969BT",
-    "Precio normal": 483360,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/884938377508_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/D_NQ_NP_714303-MLA31602837701_072019-O.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/D_NQ_NP_882080-MLA31602836303_072019-O.jpg"
+      "id": 2104,
+      "nombre": "Stereo + Parlantes Pioneer MXTX3969BT",
+      "precio": 449.93,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/884938377508_800.jpg"
   },
   {
-    "ID": 2109,
-    "Nombre": "Smart Band Amazfit Band 5 Naranja",
-    "Precio normal": 108756,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/S2005OV3N_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/amazfit-band-5-prezzo-data-uscita-01-1200x675-1.jpg"
+      "id": 2109,
+      "nombre": "Smart Band Amazfit Band 5 Naranja",
+      "precio": 101.27,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/S2005OV3N_800.jpg"
   },
   {
-    "ID": 2113,
-    "Nombre": "Smartwatch Amazfit Gts 2e Bt 5.0 1.65\" Gps Negro",
-    "Precio normal": 132924,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/W1969OV1N_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5526_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/190754-1600-auto.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/190756-1600-auto.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/W1969OV1N_800-1.jpg"
+      "id": 2113,
+      "nombre": "Smartwatch Amazfit Gts 2e Bt 5.0 1.65\" Gps Negro",
+      "precio": 123.74,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/W1969OV1N_800.jpg"
   },
   {
-    "ID": 2119,
-    "Nombre": "MOTHERBOARD ASUS PRIME B550M-A/CSM DUAL M.2 AURA ATX (AM4)",
-    "Precio normal": 471276,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/90MB14I0-M0EAY0_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5044_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5045_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5046_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5047_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5048_800.jpg"
+      "id": 2119,
+      "nombre": "MOTHERBOARD ASUS PRIME B550M-A/CSM DUAL M.2 AURA ATX (AM4)",
+      "precio": 438.64,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/90MB14I0-M0EAY0_800.jpg"
   },
   {
-    "ID": 2128,
-    "Nombre": "DISCO SSD KINGSTON 240 GB A400",
-    "Precio normal": 60420,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/740617261219_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/2_disco-kingston-ssd-240gb-a400-sata31-d5569225b67b65118916074327611232-1024-1024.png"
+      "id": 2128,
+      "nombre": "DISCO SSD KINGSTON 240 GB A400",
+      "precio": 56.24,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/740617261219_800.jpg"
   },
   {
-    "ID": 2133,
-    "Nombre": "Motherboard Asus Prime A320M-K (Amd AM4)",
-    "Precio normal": 374604,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/4712900672060_800.jpg"
+      "id": 2133,
+      "nombre": "Motherboard Asus Prime A320M-K (Amd AM4)",
+      "precio": 348.68,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/4712900672060_800.jpg"
   },
   {
-    "ID": 2135,
-    "Nombre": "Micro AMD Ryzen 5 7600 5.1HGZ (AM5)",
-    "Precio normal": 1063620,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/100-100001015BOX_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/7047_800.jpg"
+      "id": 2135,
+      "nombre": "Micro AMD Ryzen 5 7600 5.1HGZ (AM5)",
+      "precio": 990.61,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/100-100001015BOX_800.jpg"
   },
   {
-    "ID": 2138,
-    "Nombre": "Silla  Gamer AK Racing Octane White",
-    "Precio normal": 727320,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/853845007709_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/4586_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/4588_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/4589_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/4587_800.jpg"
+      "id": 2138,
+      "nombre": "Silla Gamer AK Racing Octane White",
+      "precio": 677.11,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/853845007709_800.jpg"
   },
   {
-    "ID": 2162,
-    "Nombre": "PC OFICINA CORE I3-10105/SSD 240GB/8GBRAM/",
-    "Precio normal": "1011430,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/PCHDCi310105-240-8-W_800.jpg"
+      "id": 2162,
+      "nombre": "PC OFICINA CORE I3-10105/SSD 240GB/8GBRAM/",
+      "precio": 941.65,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/PCHDCi310105-240-8-W_800.jpg"
   },
   {
-    "ID": 2164,
-    "Nombre": "Smart Band Amazfit Band 5 Negro",
-    "Precio normal": 114798,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/XIAOMI-Wristband-4-BLK_800-ANIMATION.gif, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5019_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5020_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5021_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5022_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5023_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/6972596101598_800.jpg"
+      "id": 2164,
+      "nombre": "Smart Band Amazfit Band 5 Negro",
+      "precio": 106.90,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/XIAOMI-Wristband-4-BLK_800-ANIMATION.gif"
   },
   {
-    "ID": 2174,
-    "Nombre": "DISCO SSD EXTERNO 480GB SANDISK SDSSDE30  USB TIPO-C 3.2",
-    "Precio normal": 193344,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/disco-externo-ssd-sandisk-portable-480gb-usb-3-2-tipo-c.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/SDSSDE30-480G-G25_800.jpg"
+      "id": 2174,
+      "nombre": "DISCO SSD EXTERNO 480GB SANDISK SDSSDE30 USB TIPO-C 3.2",
+      "precio": 180.06,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/disco-externo-ssd-sandisk-portable-480gb-usb-3-2-tipo-c.jpg"
   },
   {
-    "ID": 2196,
-    "Nombre": "Auricular In Ear Moonki Sound 312",
-    "Precio normal": 9063,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4097_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/1871_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4096_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/7798135510695_800.jpg"
+      "id": 2196,
+      "nombre": "Auricular In Ear Moonki Sound 312",
+      "precio": 8.44,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4097_800.jpg"
   },
   {
-    "ID": 2209,
-    "Nombre": "Fuente Corsair CV550 Cert. 80 Plus Bronze",
-    "Precio normal": "171471,96",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/840006615095_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4269_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4270_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4271_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4272_800.jpg"
+      "id": 2209,
+      "nombre": "Fuente Corsair CV550 Cert. 80 Plus Bronze",
+      "precio": 159.63,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/840006615095_800.jpg"
   },
   {
-    "ID": 2222,
-    "Nombre": "Game Pad Marvo Gt 016 PC /PS3",
-    "Precio normal": 48336,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4667_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4668_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4669_800.jpg"
+      "id": 2222,
+      "nombre": "Game Pad Marvo Gt 016 PC /PS3",
+      "precio": 44.99,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/10/4667_800.jpg"
   },
   {
-    "ID": 2247,
-    "Nombre": "Teclado Logitech K400 Plus",
-    "Precio normal": "95463,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/oiIUv2LE1GldkK53.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/1000196063_x3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6e86b93a86285d54c6e92513cb2f6241_Logitech-920-007123_Foto2g.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/l_10135387_013.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/logi-k400-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5_ic_11753582.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/Logitech-K400-Plus-696x464-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/K400wedtbnail_580x-1.jpg"
+      "id": 2247,
+      "nombre": "Teclado Logitech K400 Plus",
+      "precio": 88.88,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/oiIUv2LE1GldkK53.jpg"
   },
   {
-    "ID": 2264,
-    "Nombre": "Mouse + pad Marvo Scorpions G909+G1",
-    "Precio normal": "27793,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/36.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/37.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/38.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/39.png, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/40.png"
+      "id": 2264,
+      "nombre": "Mouse + pad Marvo Scorpions G909+G1",
+      "precio": 25.88,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/36.png"
   },
   {
-    "ID": 2281,
-    "Nombre": "ROUTER TP LINK WR820N WIFI N300 2ANT",
-    "Precio normal": 36252,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/D_NQ_NP_663868-MLA31883500252_082019-W.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WR820NEU2.0_01_normal_1578644739626y.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WR820NEU2.0_02_normal_1578644748272k.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WR820NEU2.0_03_normal_1578644758626r.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WR820NEU2.0_05_normal_1578644778070t.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/TL-WR820NEU2.0_07_normal_1578644787207n.jpg"
+      "id": 2281,
+      "nombre": "ROUTER TP LINK WR820N WIFI N300 2ANT",
+      "precio": 33.75,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/D_NQ_NP_663868-MLA31883500252_082019-W.jpg"
   },
   {
-    "ID": 2312,
-    "Nombre": "MICRÓFONO STREAMING USB MARVO MIC-03",
-    "Precio normal": 101460,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6932391921982_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/4873_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/4872_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/4871_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/4870_800.jpg"
+      "id": 2312,
+      "nombre": "MICRÓFONO STREAMING USB MARVO MIC-03",
+      "precio": 94.46,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6932391921982_800.jpg"
   },
   {
-    "ID": 2319,
-    "Nombre": "GOOGLE CHROMECAST 3 GREY WIFI FULL HD",
-    "Precio normal": 96900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/3073_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/google-chromecast3blk-original-imaf9pjxgdhff9jp.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/google-chromecast-3-ultimo-modelo-reproductor-streaming-D_NQ_NP_982978-MLA28655999236_112018-F.jpg"
+      "id": 2319,
+      "nombre": "GOOGLE CHROMECAST 3 GREY WIFI FULL HD",
+      "precio": 90.22,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5.jpg"
   },
   {
-    "ID": 2325,
-    "Nombre": "COMBO GAMING 4 EN 1 MARVO  CM409",
-    "Precio normal": 44460,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6932391923153_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5705_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5706_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5707_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/5708_800.jpg"
+      "id": 2325,
+      "nombre": "COMBO GAMING 4 EN 1 MARVO CM409",
+      "precio": 41.40,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6932391923153_800.jpg"
   },
   {
-    "ID": 2332,
-    "Nombre": "Motherboard Asus Prime B460m-A R2.0(1200)",
-    "Precio normal": "343185,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/90MB18A0-M0EAY0_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6167_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/6168_800.jpg"
+      "id": 2332,
+      "nombre": "Motherboard Asus Prime B460m-A R2.0(1200)",
+      "precio": 319.43,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/90MB18A0-M0EAY0_800-1.jpg"
   },
   {
-    "ID": 2339,
-    "Nombre": "CPU INTEL CORE I3-13100F 4.5GHZ 12MB (S/VIDEO) (LGA1700)",
-    "Precio normal": 307800,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/BX8071513100F_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/11/7049_800.jpg"
+      "id": 2339,
+      "nombre": "CPU INTEL CORE I3-13100F 4.5GHZ 12MB (S/VIDEO) (LGA1700)",
+      "precio": 286.62,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/11/BX8071513100F_800.jpg"
   },
   {
-    "ID": 2352,
-    "Nombre": "Mini Componente Moonki  Mw-H502lt2,0",
-    "Precio normal": 277932,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512149_800.jpg"
+      "id": 2352,
+      "nombre": "Mini Componente Moonki Mw-H502lt2,0",
+      "precio": 258.79,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512149_800.jpg"
   },
   {
-    "ID": 2358,
-    "Nombre": "NOTEBOOK HDC NY-4020-4128-DB 4GB 128GB W11 ESPAÑOL",
-    "Precio normal": 376200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512729_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7137_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7138_800.jpg"
+      "id": 2358,
+      "nombre": "NOTEBOOK HDC NY-4020-4128-DB 4GB 128GB W11 ESPAÑOL",
+      "precio": 350.22,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512729_800.jpg"
   },
   {
-    "ID": 2365,
-    "Nombre": "Parlante Potenciado Moonki Sound Ms-115b",
-    "Precio normal": 478800,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512484_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/1339_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/2086_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/2087_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/2088_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/6698_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/12/6699_800.jpg"
+      "id": 2365,
+      "nombre": "Parlante Potenciado Moonki Sound Ms-115b",
+      "precio": 445.77,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/12/7798135512484_800.jpg"
   },
   {
-    "ID": 2375,
-    "Nombre": "TONER GTC HP 285A/435/436/278 UNIVERSAL",
-    "Precio normal": 15162,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2022-09-19-at-16.33.31.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/toner-alternativo-universal-85a-35a-36a-285a-pack-x20-D_NQ_NP_990106-MLA31036415676_062019-F.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/descarga.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/COLLAGE285.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/images.png"
+      "id": 2375,
+      "nombre": "TONER GTC HP 285A/435/436/278 UNIVERSAL",
+      "precio": 14.11,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/WhatsApp-Image-2022-09-19-at-16.33.31.jpeg"
   },
   {
-    "ID": 2385,
-    "Nombre": "Micro Intel I5 10400 4.30 GHZ 12M",
-    "Precio normal": "699663,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5012_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5013_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5014_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5032037187138_800.jpg"
+      "id": 2385,
+      "nombre": "Micro Intel I5 10400 4.30 GHZ 12M",
+      "precio": 651.47,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5012_800.jpg"
   },
   {
-    "ID": 2390,
-    "Nombre": "Pendrive Sandisk 16 Gb Cruzer Blade Usb 2.0",
-    "Precio normal": "10633,92",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/619659000431_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5717_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5718_800.jpg"
+      "id": 2390,
+      "nombre": "Pendrive Sandisk 16 Gb Cruzer Blade Usb 2.0",
+      "precio": 9.90,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/619659000431_800.jpg"
   },
   {
-    "ID": 2394,
-    "Nombre": "Disco Externo WD Elements 1TB",
-    "Precio normal": "111172,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5506_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5505_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5507_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/718037855448_800.jpg"
+      "id": 2394,
+      "nombre": "Disco Externo WD Elements 1TB",
+      "precio": 103.53,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/5506_800.jpg"
   },
   {
-    "ID": 2399,
-    "Nombre": "Disco Externo WD Elements 2TB",
-    "Precio normal": 157092,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/4930_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/4927_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/4928_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/718037855363_800.jpg"
+      "id": 2399,
+      "nombre": "Disco Externo WD Elements 2TB",
+      "precio": 146.25,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/4930_800.jpg"
   },
   {
-    "ID": 2420,
-    "Nombre": "RESMA 80 GR A4",
-    "Precio normal": 8550,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/D_NQ_NP_831318-MLA44662590518_012021-W.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/dac5f51fca7ff06b29c669ce2f1dea4123f9d0146199209df1b6a91780fd7aa8.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/images.jpg"
+      "id": 2420,
+      "nombre": "RESMA 80 GR A4",
+      "precio": 7.96,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4930_800.jpg"
   },
   {
-    "ID": 2505,
-    "Nombre": "Auricular Jbl Tune Bt520 Black",
-    "Precio normal": 106020,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/01.JBL_Tune-520BT_Product-Image_Hero_Blue.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/JBL_TUNE_520BT_FOLD_REGULAR_BLUE_41014_x1.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/02.JBL_Tune-520BT_Product-Image_Front_Blue.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/04.JBL_Tune-520BT_Product-Image_Left_Blue.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/07.JBL_Tune-520BT_Product-Image_Button_Blue.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/JBL_Tune-520BT_Product-Image_Earcup_Blue.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/01/JBL_TUNE_520BT_Box_Image_Side_view_Blue_SKU_1605x1605.png"
-  },
-  {
-    "ID": 2514,
-    "Nombre": "Micro AMD Ryzen 7 5800X  4.7GHZ (AM4)",
-    "Precio normal": 1117200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/02/11-8f38bc5b13361d8c4016239353769720-1024-1024.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/730143312714_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/5616_800.jpg"
-  },
-  {
-    "ID": 2520,
-    "Nombre": "SILLA GAMER AK RACING OCTANE BLUE/RED",
-    "Precio normal": 713640,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/02/AK-LX-BL_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4593_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4594_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4596_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4590_800-e1643829868627.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4591_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4594_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4597_800.jpg"
-  },
-  {
-    "ID": 2536,
-    "Nombre": "Roku 4 k PREMIERE CONVERTIDOR SMART",
-    "Precio normal": "166759,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/02/roku-premiere-4k-hdr-tv-portada.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/roku-premiere-4k-hdr-tv-portada.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/6301_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4225_800.jpg"
-  },
-  {
-    "ID": 2556,
-    "Nombre": "PARLANTE BT JBL FLIP 6 BLACK WATERPROOF",
-    "Precio normal": 477318,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/04/2_JBL_FLIP6_3_4_RIGHT_BLACK_30195_x1.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/2_JBL_FLIP6_3_4_RIGHT_BLACK_30195_x1.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/1_JBL_FLIP6_HERO_BLACK_29391_x2.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/3_JBL_FLIP6_FRONT_BLACK_29509_x2.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/5_JBL_FLIP6_BACK_BLACK_29418_x2.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-14-at-6.17.32-PM.jpeg"
-  },
-  {
-    "ID": 2582,
-    "Nombre": "Auricular Vincha Bluetooth Moonki Mh-O510bt",
-    "Precio normal": 53580,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/04/7798135510596_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/1867_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/4106_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/1863_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/4107_800-1.jpg"
-  },
-  {
-    "ID": 2589,
-    "Nombre": "Auricular Usb H390 Logitech",
-    "Precio normal": 100320,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/04/981-000014_2.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/981-000014_1.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/981-000014_3.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/Logitech-91954336-613aLr7sduS._AC_SL1500_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/04/Logitech-91954360-61F-AyPrRsS._AC_SL1500_.jpg"
-  },
-  {
-    "ID": 2608,
-    "Nombre": "Earbuds JBL Wave Buds TWS - Negro",
-    "Precio normal": 114000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7091_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7092_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7093_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7094_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6925281953521_800.jpg"
-  },
-  {
-    "ID": 2634,
-    "Nombre": "PC OFICINA CORE i5-10400F 240GB 8GB W10 SL",
-    "Precio normal": "1121395,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2021/09/PCHDCi310105-240-8-W_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5012_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/pc-hdc-amd-ryzen-5-5600g-8gb-ssd-240gb-w10-slmodelod-r58240.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/pc-hdc-amd-ryzen-5-5600g-8gb-ssd-240gb-w10-slmodelod-r58240-3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/pc-hdc-amd-ryzen-5-5600g-8gb-ssd-240gb-w10-slmodelod-r58240-2.jpg"
-  },
-  {
-    "ID": 2637,
-    "Nombre": "Auricular Earbuds Moonki Sound Ma-Tws66",
-    "Precio normal": 43320,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/7798135511968_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5225_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5226_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5227_800.jpg"
-  },
-  {
-    "ID": 2653,
-    "Nombre": "Cámara para Vehículo Bcam50 3\" LCD /8GB SD",
-    "Precio normal": 118218,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4313_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4312_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4314_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4315_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4316_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/BCAM50_800.jpg"
-  },
-  {
-    "ID": 2660,
-    "Nombre": "PARLANTE BT JBL CHARGE 4 RED IPX7 SPLASHPROOF",
-    "Precio normal": 471276,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/6328_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/6328_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/6925281947278_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/6327_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/3097_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/3096_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/3098_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/3099_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/6925281947254_800.jpg"
-  },
-  {
-    "ID": 2667,
-    "Nombre": "Auricular Bluetooth Xiaomi Redmi Buds 3 Lite",
-    "Precio normal": "58003,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5489-021-d3eb59344ee269feba16484907901410-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/MKT0685ETC.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/MKT0685ETC_2-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/5489-021-d3eb59344ee269feba16484907901410-640-0.jpg"
-  },
-  {
-    "ID": 2678,
-    "Nombre": "DISCO SSD 240GB PNY CS900 2.5\" SATA III 6Gb/s",
-    "Precio normal": 72504,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4445_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4446_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4447_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4448_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/4712847095939_800.jpg"
-  },
-  {
-    "ID": 2693,
-    "Nombre": "MOUSE LOGITECH 170 WIRELESS",
-    "Precio normal": 15504,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/05/WhatsApp-Image-2023-10-10-at-4.50.06-PM.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/20180416111512_567.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/05/19455.jpg"
-  },
-  {
-    "ID": 2699,
-    "Nombre": "VGA ASUS GT730 SL 2GD5 BRK",
-    "Precio normal": 193344,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/1jJmlULfR8xDBNpR_setting_xxx_0_90_end_800.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/48zN6kOdii08gR4e_setting_xxx_0_90_end_800.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/bS7byYVx12yeV3yI_setting_xxx_0_90_end_800.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/PrVmAFPH3PhsdVPC_setting_xxx_0_90_end_800.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/s2ScubVC1B6pST2K_setting_xxx_0_90_end_800.png"
-  },
-  {
-    "ID": 2706,
-    "Nombre": "PC GAMER AMD RYZEN 5 5600G - 8GB - SSD 240GB W10",
-    "Precio normal": 1147980,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/Post-de-Instagram-Facebook-dia-mundial-de-la-salud.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2021/09/5339_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-11.55.48-AM.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/PCHDCi310105-240-8-W_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/pc-hdc-amd-ryzen-5-5600g-8gb-ssd-240gb-w10-slmodelod-r58240-1.jpg"
-  },
-  {
-    "ID": 2707,
-    "Nombre": "PC GAMER AMD RYZEN 7 5700G - 8GB - SSD 240GB W10",
-    "Precio normal": 1643424,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/Post-de-Instagram-Facebook-dia-mundial-de-la-salud-4.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/02/730143312714_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/PCHDCi310105-240-8-W_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/262192606_2084978188326865_4810760470534810401_n.jpg"
-  },
-  {
-    "ID": 2726,
-    "Nombre": "AURICULAR  GAMING JBL QUANTUM 100",
-    "Precio normal": 60420,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/4791_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/4792_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/4793_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/6925281969638_800.jpg"
-  },
-  {
-    "ID": 2735,
-    "Nombre": "PARLANTE BT JBL FLIP ESSENTIAL GREY WATERPROOF",
-    "Precio normal": 302100,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/18716_medium-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/18718_medium.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/18717_medium.jpg"
-  },
-  {
-    "ID": 2754,
-    "Nombre": "TABLET 10\" LENOVO M10 2GB 32GB LTE WIFI BT",
-    "Precio normal": 368220,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/papel-de-azucar-elsa-de-frozen-para-galletas.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/6441_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/6442_800.jpg"
-  },
-  {
-    "ID": 2765,
-    "Nombre": "Barra de Sonido 2.1 Moonki Mx-Sb140 Inalámbrico",
-    "Precio normal": 456000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/06/7798135512446_800-2.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/7798135512446_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/6619_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/06/6620_800.jpg"
-  },
-  {
-    "ID": 2776,
-    "Nombre": "Silla Gamer Marvo CH106 Ajustable negra",
-    "Precio normal": 342000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/07/6932391913420_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/4748_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/4749_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/4747_800.jpg"
-  },
-  {
-    "ID": 2781,
-    "Nombre": "SMART MOTOROLA 100 PHANTOM BLACK",
-    "Precio normal": 145008,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/07/20220704023836_881.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/011-0df7954462bcaf950016545205383669-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/031-27fe14f532ab46842916545205379154-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/moto-watch-100-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/smartwatch-reloj-motorola-moto-watch100-031-378b53cd3621a33e7216528184548548-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/smartwatch-reloj-motorola-moto-watch100-041-372a06c9785e13c97516528184548677-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/smartwatch-reloj-motorola-moto-watch100-silver-031-8550e336518e9cc63d16472794620545-640-0.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/smartwatch-reloj-motorola-moto-watch100-silver-051-0ee7bef6e87378e75516472794621937-640-0.jpg"
-  },
-  {
-    "ID": 2831,
-    "Nombre": "PARLANTE POTENCIADO MOONKI SOUND MS-P15BW",
-    "Precio normal": 786600,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/07/00578005-146801-146801-01-146801-01.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/00578005-146801-146801-02-146801-02.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/00578005-146801-146801-03-146801-03.jpg"
-  },
-  {
-    "ID": 2836,
-    "Nombre": "PARLANTE PARTYBOX MOONKI SOUND MW-PB265BLT",
-    "Precio normal": 444600,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/07/6621_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/6623_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/6622_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/6623_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/07/7798135512361_800.jpg"
-  },
-  {
-    "ID": 2838,
-    "Nombre": "TABLET 10\" AMAZON FIRE HD 2GB 64GB  WIFI BLANCA",
-    "Precio normal": 601920,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6983_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6624_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6984_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/841667178035_400.jpg"
-  },
-  {
-    "ID": 3530,
-    "Nombre": "Torre De Sonido Dj Moonki Sound Mw-Dj212lt220",
-    "Precio normal": 969000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/08/7798135512156_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6212_800.jpg"
-  },
-  {
-    "ID": 3534,
-    "Nombre": "PARLANTE BT NAKAMICHI CUBEBOX 5W IPX7",
-    "Precio normal": 64980,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852108332_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852107830_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852108332_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852108349_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852107823_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6923852107311_800.jpg"
-  },
-  {
-    "ID": 3544,
-    "Nombre": "STEREO + 4 PARLANTES PIONEER 320",
-    "Precio normal": "602991,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/08/884938488259_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6666_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6667_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6668_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/6669_800.jpg"
-  },
-  {
-    "ID": 3551,
-    "Nombre": "TECLADO GAMING MECANICO  COMPACTO MARVO KG901",
-    "Precio normal": 44346,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/08/4216_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/4217_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/KG935_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/08/4218_800.jpg"
-  },
-  {
-    "ID": 3560,
-    "Nombre": "Barra de Sonido 2.1 Wireless BT Nakamichi Apollo220 Dolby Audio 120W",
-    "Precio normal": 441180,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/6923852110892_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/nakamichi_apollo_2202.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-10-05-at-11.17.56.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-10-05-at-11.17.57-1.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-10-05-at-11.17.57-2.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-10-05-at-11.17.57.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-10-05-at-11.17.58.jpeg"
-  },
-  {
-    "ID": 3582,
-    "Nombre": "Auricular Earbuds Moonki Sound Mh-Tws33 Black",
-    "Precio normal": 36480,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/7798135512354_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/6332_800.jpg"
-  },
-  {
-    "ID": 3585,
-    "Nombre": "TONER Alter HP 217A LS MFP M130 M132 Con Chip",
-    "Precio normal": 18240,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31.jpeg"
-  },
-  {
-    "ID": 3587,
-    "Nombre": "TONER ALTER HP 2612A 1010/1012/1015/1018",
-    "Precio normal": 16758,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31.jpeg"
-  },
-  {
-    "ID": 3588,
-    "Nombre": "TONER ALTER BROTHER TN1060 1010 1112 1810 1815",
-    "Precio normal": 10488,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31.jpeg"
-  },
-  {
-    "ID": 3589,
-    "Nombre": "TONER ALTER SAMSUNG D101S ML2150 / ML2165",
-    "Precio normal": 23712,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31-1.jpeg"
-  },
-  {
-    "ID": 3591,
-    "Nombre": "TONER ALTER SAMSUNG D105L ML",
-    "Precio normal": 49476,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31-1.jpeg"
-  },
-  {
-    "ID": 3592,
-    "Nombre": "TONER ALTER SAMSUNG D108S",
-    "Precio normal": 41952,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-16.33.31-1.jpeg"
-  },
-  {
-    "ID": 3596,
-    "Nombre": "PARLANTE POTENCIADO MOONKI SOUND MD-PB360",
-    "Precio normal": "508736,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/09/6663_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/6662_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/6664_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/09/7798135512538_800.jpg"
-  },
-  {
-    "ID": 3614,
-    "Nombre": "MONITOR  SAMSUNG 24\" T350 Plano Panel IPS, 1920x1080,VGA - HDMI",
-    "Precio normal": 364800,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-4.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-59.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-60.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-61.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-62-copia.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-62.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-63.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-64.png, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/Captura-de-pantalla-65.png"
-  },
-  {
-    "ID": 3618,
-    "Nombre": "FUENTE CORSAIR CV650m",
-    "Precio normal": 193344,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/10/840006630029_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/840006616450_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/6673_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/10/6674_800.jpg"
-  },
-  {
-    "ID": 3651,
-    "Nombre": "GABINETE CORSAIR 110R VIDRIO",
-    "Precio normal": 253764,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/CC-9011183-WW_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6739_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6740_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6741_800.jpg"
-  },
-  {
-    "ID": 3656,
-    "Nombre": "GABINETE SHENLONG GT-701 ACRILICO MID-TOWER RGB RAINBOW RING MICRO-ATX S/FUENTE",
-    "Precio normal": 119700,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/SHGC-GT701_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/untitled-50.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/untitled-3.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/untitled-50-1.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/untitled-51.png"
-  },
-  {
-    "ID": 3663,
-    "Nombre": "MEMORIA DDR4 8GB 2666 MHZ CRUCIAL BASICS",
-    "Precio normal": 43320,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/5384_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/649528900531_800.jpg"
-  },
-  {
-    "ID": 3666,
-    "Nombre": "MEMORIA DDR4 8GB 3200 MHZ KINGSTON FURY BLACK",
-    "Precio normal": "60180,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/740617319910_800.jpg"
-  },
-  {
-    "ID": 3668,
-    "Nombre": "MEMORIA DDR4 16GB 3200 MHZ CORSAIR VENGEANCE SODIMM (2X8GB) CL22",
-    "Precio normal": 123120,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/840006628606_800.jpg"
-  },
-  {
-    "ID": 3670,
-    "Nombre": "MEMORIA SODIMM DDR4 8GB 3200 MHZ KINGSTON",
-    "Precio normal": 42636,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/DDR4_Non-ECC_Unbuffered_SODIMM_1R_X16_1-lg.jpg"
-  },
-  {
-    "ID": 3796,
-    "Nombre": "Amazon Fire Tv Stick 4k",
-    "Precio normal": 119700,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/841667144719_800.jpg"
-  },
-  {
-    "ID": 3798,
-    "Nombre": "Ups 800va Kaise 800 Lcd",
-    "Precio normal": 241680,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/UPSM800VKAIZ_800.jpg"
-  },
-  {
-    "ID": 3801,
-    "Nombre": "COMBO 2 EN 1 SHENLONG C2001 MOUSE Y TECLADO",
-    "Precio normal": 30780,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/7798135512057_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/5588_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/5589_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/5590_800.jpg"
-  },
-  {
-    "ID": 3806,
-    "Nombre": "Parlante potenciado Moonki Sound MS-P112B - 12",
-    "Precio normal": 792300,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6716_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6717_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6718_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6718_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6719_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/7798135512514_800.jpg"
-  },
-  {
-    "ID": 3813,
-    "Nombre": "MICRÓFONO STREAMING SHENLONG SM-ARM909/SOPORTE",
-    "Precio normal": 84588,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/11/2-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/11/6304_800-1.jpg"
-  },
-  {
-    "ID": 3819,
-    "Nombre": "Barra de Sonido 9.2 Wireless Nakamichi 9.2 Dolby Atmos 1000W",
-    "Precio normal": "6142297,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/840735106550_800.jpg"
-  },
-  {
-    "ID": 3825,
-    "Nombre": "Parlante Portátil BT Moonki MO-R88",
-    "Precio normal": "64045,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6468_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6469_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6470_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7798135512422_800.jpg"
-  },
-  {
-    "ID": 3830,
-    "Nombre": "TECLADO MECANICO CORSAIR K60 RGB PRO CHERRY",
-    "Precio normal": 120840,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6141_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6142_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/840006626237_800.jpg"
-  },
-  {
-    "ID": 3834,
-    "Nombre": "SILLA GAMER SHENLONG RGB SCH-RGB155 NEGRA - RECLINABLE 155° -",
-    "Precio normal": "736519,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7798135512620_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6776_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6777_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6779_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6773_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7798135512644_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6780_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7798135512637_800.jpg"
-  },
-  {
-    "ID": 3843,
-    "Nombre": "TECLADO CABLEADO KGB GTC USB",
-    "Precio normal": "18609,36",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7798135512187_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6164_800.jpg"
-  },
-  {
-    "ID": 3852,
-    "Nombre": "Earbuds JBL Wave Buds TWS - Blanco",
-    "Precio normal": 117420,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7086_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6771_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7087_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7088_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7089_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/7090_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2022/12/6925281953569_800.jpg"
-  },
-  {
-    "ID": 3863,
-    "Nombre": "AURICULAR MARVO HG9056 7.1 RAINBOW LED",
-    "Precio normal": 78546,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/01/6932391920732_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/01/5669_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/01/5670_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/01/5671_800.jpg"
-  },
-  {
-    "ID": 3870,
-    "Nombre": "PARLANTE PROFESIONAL MOONKI SOUND MS-112DSP - 12\" - 4500W/350W",
-    "Precio normal": "813253,2",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/01/7798135512491_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/01/6720_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/01/6721_800.jpg"
-  },
-  {
-    "ID": 3877,
-    "Nombre": "AURICULAR  GAMING SHENLONG HS1000 - LED ROJO  2 X 3.5MM + USB",
-    "Precio normal": "48819,36",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/01/5582_800.jpg"
-  },
-  {
-    "ID": 3895,
-    "Nombre": "PARLANTE PORTÁTIL MOONKI SOUND IPX6 MO-L208BT",
-    "Precio normal": "101263,92",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/02/7798135512415_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/02/6460_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/02/6461_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/02/6462_800.jpg"
-  },
-  {
-    "ID": 3904,
-    "Nombre": "Micro Intel Core I5-11400 4.40 Ghz 12M",
-    "Precio normal": 688788,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/02/6072_800.jpg"
-  },
-  {
-    "ID": 3913,
-    "Nombre": "VGA ASUS NVIDIA RTX 3050 DUAL 6GB GDDR6",
-    "Precio normal": 410400,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/02/Captura-de-pantalla-148.png, https://detodoinformatica.com.ar/wp-content/uploads/2023/02/90YV0K60-M0AA00_800.jpg"
-  },
-  {
-    "ID": 3916,
-    "Nombre": "Mouse Marvo DMS002BL 1200DPI Usb Cableado Blue",
-    "Precio normal": "5437,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/02/2335_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/02/2335_800-1.jpg"
-  },
-  {
-    "ID": 3943,
-    "Nombre": "FUENTE HDC ATX-24S-G 500W OEM",
-    "Precio normal": "23322,12",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/03/ATX-242S-G_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/03/ATX-242S-G_800-1.jpg"
-  },
-  {
-    "ID": 3947,
-    "Nombre": "Adaptador Hdmi Hembra a Dvi 24+1",
-    "Precio normal": "9425,52",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-15-at-10.17.52-1.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-15-at-10.18.34.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-16-at-11.24.36.jpeg"
-  },
-  {
-    "ID": 3951,
-    "Nombre": "Adaptador Dvi 24 + 5m a Vga Hembra",
-    "Precio normal": "8337,96",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-16-at-11.03.36.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-16-at-11.01.50.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-16-at-11.03.02.jpeg"
-  },
-  {
-    "ID": 3957,
-    "Nombre": "Activo Dvi-D 24+1 M ~ Vga H Nm-C95 Cpm004",
-    "Precio normal": "21630,36",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-20-at-18.14.23.jpeg"
-  },
-  {
-    "ID": 3975,
-    "Nombre": "TECLADO GAMING 60% MARVO KG962SP-R SWITCH BLUE ESP USB RGB WHITE",
-    "Precio normal": "53894,64",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6424_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6425_800.jpg"
-  },
-  {
-    "ID": 3982,
-    "Nombre": "TECLADO GAMING MECANICO MARVO KG917 ILUMINADO RGB BLUE",
-    "Precio normal": 47880,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5682_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5683_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5684_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6932391922316_800.jpg"
-  },
-  {
-    "ID": 3988,
-    "Nombre": "TECLADO GAMING MECANICO MARVO KG950 FULL RGB RED SWITCH ING",
-    "Precio normal": 94620,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5655_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5656_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/5657_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6932391916513_800.jpg"
-  },
-  {
-    "ID": 4009,
-    "Nombre": "FUENTE CORSAIR CX650M SEMI MODULAR 650W CERT. 80 PLUS BRONZE",
-    "Precio normal": "321434,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6672_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6673_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6674_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/840006616450_800.jpg"
-  },
-  {
-    "ID": 4019,
-    "Nombre": "Tablet Hdc T10-232 10\" Allwinner A133 -2gbRam - 32gb Rom",
-    "Precio normal": "200594,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/7798135512583_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/00560150-146639-146639-02-146639-02.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6806_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6807_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/6808_800.jpg"
-  },
-  {
-    "ID": 4023,
-    "Nombre": "Receptor USB WIFI 725",
-    "Precio normal": "31418,4",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/04/TL-WN725N_EU_3.0_01_normal_1506586609631g-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/04/TL-WN725N_EU_3.0_04_normal_1506586704127a-1.jpg"
-  },
-  {
-    "ID": 4032,
-    "Nombre": "Teclado Gaming Marvo k656 Retroiluminado Rgb",
-    "Precio normal": 22800,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/05/5428_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/05/5429_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/05/5430_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/05/6932391920947_800.jpg"
-  },
-  {
-    "ID": 4043,
-    "Nombre": "STEREO BOSS 609UAB SINGLE DIN BT/USB/AUX/AM/FM/",
-    "Precio normal": "135340,8",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/05/791489129053_800.jpg"
-  },
-  {
-    "ID": 4065,
-    "Nombre": "Cable Plug 3.5 a 2 RCA",
-    "Precio normal": "6525,36",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/06/descarga.jpg"
-  },
-  {
-    "ID": 4106,
-    "Nombre": "FUENTE CORSAIR RM750X FULL MODULAR 750W CERT.80 PLUS GOLD",
-    "Precio normal": "391521,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/07/840006605218_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/07/6675_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/07/6676_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/07/6677_800.jpg"
-  },
-  {
-    "ID": 4119,
-    "Nombre": "Barra de Sonido Jbl Sb 140",
-    "Precio normal": 547200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/07/HERO-WEB-1.-JBL_CINEMA_SB140_HERO_0194_x2-2.png"
-  },
-  {
-    "ID": 4171,
-    "Nombre": "MOTHERBOARD ASUS PRIME H510M-K(1200)",
-    "Precio normal": "312975,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6887_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/90MB1E80-M0EAY0_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6885_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6886_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6888_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6887_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6884_800.jpg"
-  },
-  {
-    "ID": 4178,
-    "Nombre": "MOTHERBOARD ASUS PRIME H610M-K D4(1700)",
-    "Precio normal": "337143,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6882_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/90MB1A10-M0EAY0_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6880_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6881_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6881_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/6883_800.jpg"
-  },
-  {
-    "ID": 4238,
-    "Nombre": "SERVICIO TECNICO MOONKI SOUND",
-    "Precio normal": "0,00114",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/08/monnkilogo.png, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/WhatsApp-Image-2022-09-28-at-17.32.31-e1692133266978.jpeg"
-  },
-  {
-    "ID": 4248,
-    "Nombre": "Adaptador USB Wireless  N 300Mbps 821N Tp Link",
-    "Precio normal": 39900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/08/imagen.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/TL-WN821N_EU_5.0-02_normal_1507530661521j.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/TL-WN821N_EU_5.0-03_normal_1507530445272q.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/08/TL-WN821N_EU_5.0-05_normal_1507530739829i.jpg"
-  },
-  {
-    "ID": 4255,
-    "Nombre": "Parlante Potenciado Moonki Sound MW-PB250",
-    "Precio normal": 444600,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6819_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6818_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6819_800.jpg"
-  },
-  {
-    "ID": 4260,
-    "Nombre": "Auricular BT On Ear Noise Canceling Moonki Sound Mv-S21bt",
-    "Precio normal": 91200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/09/7798135512606_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6787_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6788_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6789_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6790_800.jpg"
-  },
-  {
-    "ID": 4277,
-    "Nombre": "Auricular Nakamichi Ce300 In Ear Negro",
-    "Precio normal": 27189,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/09/4897057392358_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/4897057392358_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/6531_800.jpg"
-  },
-  {
-    "ID": 4283,
-    "Nombre": "PARLANTE NETMAK RETROILUMINADO 2.0 NM-THOR",
-    "Precio normal": 48336,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/09/descarga-3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/descarga-2.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/09/descarga-1.jpg"
-  },
-  {
-    "ID": 4326,
-    "Nombre": "DISCO SSD LEXAR NQ100 240GB 2.5\" SATA3",
-    "Precio normal": 53580,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/11/7022_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/7019_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/7019_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/7020_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/7021_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/LNQ100X240G-RNNNU_800.jpg"
-  },
-  {
-    "ID": 4342,
-    "Nombre": "Smart Watch Kieslect Kr Negro",
-    "Precio normal": 86640,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/11/20220825024954_952.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/Xiaomi-Smartwatch-KIESLECT-KR-SP02-Negro-3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/11/Xiaomi-Smartwatch-KIESLECT-KR-SP02-Negro-4.jpg"
-  },
-  {
-    "ID": 4347,
-    "Nombre": "GRASA SILICONADA JERINGA 5CC NETMAK",
-    "Precio normal": 9690,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/11/descarga.png-nety.jpg"
-  },
-  {
-    "ID": 4367,
-    "Nombre": "MICRO SD 64GB C10 KINGSTON CANVAS SELECT PLUS",
-    "Precio normal": 24168,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/11/king-64-sdm.jpg"
-  },
-  {
-    "ID": 4372,
-    "Nombre": "Volante Marvo GT-903 - PS4, PS3, XBOX ONE, XBOX 360 Y PC",
-    "Precio normal": "163254,84",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/6932391924013_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.16.35_452a9c2f.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.16.53_89d938a9.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.17.05_309c9687.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.17.19_d195cc7c.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.17.30_3578c239.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/Imagen-de-WhatsApp-2023-12-07-a-las-12.17.45_b04b481a.jpg"
-  },
-  {
-    "ID": 4393,
-    "Nombre": "PARLANTE MOTO 3\" BOSS  MCBK420B  600W BLACK",
-    "Precio normal": 132924,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1934_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1930_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1931_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1932_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1933_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/791489123082_800.jpg"
-  },
-  {
-    "ID": 4400,
-    "Nombre": "Parlante Moto Boss 3\" MCBK400 FM 600W Negro",
-    "Precio normal": 96672,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/791489123099_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/389_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1925_400.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1926_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1927_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1928_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2023/12/1929_800.jpg"
-  },
-  {
-    "ID": 4454,
-    "Nombre": "Joystick Marvo Pro Gt-90 Wireless Ps4 Pc",
-    "Precio normal": 58140,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/02/Imagen-de-WhatsApp-2024-02-28-a-las-18.50.02_2662c789.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/02/7075_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/02/7076_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/02/6932391927113_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/02/Imagen-de-WhatsApp-2024-02-28-a-las-18.49.10_8952e27a.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/02/Imagen-de-WhatsApp-2024-02-28-a-las-18.50.42_c458a6aa.jpg"
-  },
-  {
-    "ID": 4502,
-    "Nombre": "PARLANTE BT NAKAMICHI THRILL",
-    "Precio normal": 137712,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6923852107946_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6923852107649_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6923852107953_800.jpg"
-  },
-  {
-    "ID": 4506,
-    "Nombre": "Silla Gamer Marvo CH106BL (AZUL Y NEGRA)",
-    "Precio normal": 342000,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3249_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3251_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3252_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3253_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6932391909034_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3231_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/3232_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/4749_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6932391909010_800.jpg"
-  },
-  {
-    "ID": 4523,
-    "Nombre": "Resma Boreal 75 Gr A4",
-    "Precio normal": 12426,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/03/boreal75.png"
-  },
-  {
-    "ID": 4526,
-    "Nombre": "PARLANTE BT JBL CHARGE 5 BLACK",
-    "Precio normal": 438900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/03/IMG_20211004_121659_3.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6195_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6196_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6965_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6966_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6967_800.jpg"
-  },
-  {
-    "ID": 4534,
-    "Nombre": "PARLANTE BT JBL CHARGE 5 RED",
-    "Precio normal": 484500,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/03/6925281982187_800.jpg"
-  },
-  {
-    "ID": 4557,
-    "Nombre": "WEBCAM HDC HW20S HD 720P",
-    "Precio normal": "23244,6",
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/04/5841_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/5842_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/04/5843_800.jpg"
-  },
-  {
-    "ID": 4561,
-    "Nombre": "WEBCAM HDC HW80S FHD 1080P",
-    "Precio normal": 45600,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/04/7798135511951_800.jpg"
-  },
-  {
-    "ID": 4621,
-    "Nombre": "MONITOR HDC 21.5\" HM-2150FHD FRAMELESS 1080P FHD 75Hz /VGA HDMI",
-    "Precio normal": 164160,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/7798135512576_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/6962_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/6963_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/6964_800.jpg"
-  },
-  {
-    "ID": 4627,
-    "Nombre": "CABLE HDMI M ~ M 1.5M NM-C47 1.5",
-    "Precio normal": 5472,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/descarga.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/descarga-4.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/imagen-1.jpg"
-  },
-  {
-    "ID": 4632,
-    "Nombre": "CABLE HDMI M ~ M 3M NM-C47 3",
-    "Precio normal": 9120,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/descarga.jpg"
-  },
-  {
-    "ID": 4634,
-    "Nombre": "CABLE HDMI M ~ M 20M NM-C47 20",
-    "Precio normal": 54036,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/descarga.jpg"
-  },
-  {
-    "ID": 4644,
-    "Nombre": "TECL/MOUSE LOGITECH COMBO MK220 WIRELESS",
-    "Precio normal": 42750,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/TECLADO-MOUSE-LOGITECH-MK220-USB-WIRELESS-RECEIVER.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/156625-800-800.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/156769-800-800.png"
-  },
-  {
-    "ID": 4650,
-    "Nombre": "Notebook Acer Aspire 3 Ryzen 5 7520u 8gb Ram 512gb Ssd",
-    "Precio normal": 907440,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/MKT2401DEL-1-1-e1725039270198.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/MKT2401DEL-2.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/MKT2401DEL-3-1.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/MKT2401DEL-4.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/MKT2401DEL-5.png"
-  },
-  {
-    "ID": 4660,
-    "Nombre": "Grabadora Interna LG GH24NSC0 24X Sata",
-    "Precio normal": 35340,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4130_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/4129_800-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/GH24NSC0B_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/05/1807_800.jpg"
-  },
-  {
-    "ID": 4672,
-    "Nombre": "EXTENSOR DE RANGO AC (RE200) TP LINK",
-    "Precio normal": 54720,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/06/00008478.png"
-  },
-  {
-    "ID": 4679,
-    "Nombre": "E-READER 6\" AMAZON KINDLE 16GB WIFI  (11th Gene)",
-    "Precio normal": 336300,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/06/841667107868_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/06/6982_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/06/6981_800.jpg"
-  },
-  {
-    "ID": 4685,
-    "Nombre": "GOOGLE CHROMECAST HD 4GEN CONTROL REM",
-    "Precio normal": 111720,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/06/193575007229_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/06/450_1000.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/06/unnamed.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/06/6482_800.jpg"
-  },
-  {
-    "ID": 4693,
-    "Nombre": "Servicio Tecnico Armado de Equipo",
-    "Precio normal": 0,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/armado-de-pc.jpg"
-  },
-  {
-    "ID": 4703,
-    "Nombre": "PATCH CORD 5E RJ45 5Mtrs NM-C04",
-    "Precio normal": 4788,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/imagen.jfif10_ME-removebg-preview.png"
-  },
-  {
-    "ID": 4707,
-    "Nombre": "PATCH CORD 5E RJ45 2Mtrs",
-    "Precio normal": 2964,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/imagen.jfif10_ME-removebg-preview-1.png"
-  },
-  {
-    "ID": 4709,
-    "Nombre": "PATCH CORD 5E RJ45 10Mtrs",
-    "Precio normal": 9462,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/imagen.jfif10_ME-removebg-preview-2.png"
-  },
-  {
-    "ID": 4721,
-    "Nombre": "MONITOR SAMSUNG 22\" T350H Plano Panel IPS",
-    "Precio normal": 212040,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-e1720734900817.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-2-e1720735533315.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-3-e1720735489397.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-1-e1720735819122.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monitor-22-samsung-led-t350h-flat-sin-bordes-ips-75hz-4-copia-e1720735897175.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/monit22-e1720736173357.jpg"
-  },
-  {
-    "ID": 4735,
-    "Nombre": "CABLE HDMI M ~ 5MTRS  MNM-C47",
-    "Precio normal": 11628,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/05/imagen-1.jpg"
-  },
-  {
-    "ID": 4736,
-    "Nombre": "CONVERSOR HDMI ~ VGA + 3.5MM AUDIO NM-C81A",
-    "Precio normal": 14478,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/descarga.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/descarga-1.jpg"
-  },
-  {
-    "ID": 4740,
-    "Nombre": "CABLE POWER CPU 220V 1.5M NM-C45",
-    "Precio normal": 10602,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/07/descarga-2.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/07/imagen-removebg-preview.png"
-  },
-  {
-    "ID": 4798,
-    "Nombre": "PARLANTE PORTÁTIL MOONKI SOUND MALIBU  - 5,5",
-    "Precio normal": 144780,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/09/7798135512705_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/09/7110_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/09/7111_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/09/7119_800.jpg"
-  },
-  {
-    "ID": 4824,
-    "Nombre": "Auricular Marvo Pro HG8960 (Ps4 Xbox Pc) Red Led",
-    "Precio normal": 34200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/10/6932391922576_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/5813_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/5814_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/5815_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/5816_800.jpg"
-  },
-  {
-    "ID": 4830,
-    "Nombre": "ROKU 3960 express r",
-    "Precio normal": 69540,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2023/12/829610004914_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/6803_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/6802_800.jpg"
-  },
-  {
-    "ID": 4833,
-    "Nombre": "E-READER 6.8\" AMAZON KINDLE PAPERWHITE (11 GEN)  16GB",
-    "Precio normal": 416100,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/10/Captura-de-pantalla-166.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/WhatsApp-Image-2024-11-28-at-9.48.53-AM.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/Captura-de-pantalla-164.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/10/Captura-de-pantalla-165.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/718mgtsQfYL._AC_SX569_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/61nX2LTUlKL._AC_SX569_.jpg"
-  },
-  {
-    "ID": 4849,
-    "Nombre": "PARLANTE PARTY SPEAKER MOONKI SOUND TRIP  900W",
-    "Precio normal": 246240,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/11/trip.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_03.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_02-1.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_04.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_05.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_06.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/11/TRIP_07.webp"
-  },
-  {
-    "ID": 4866,
-    "Nombre": "RELOJ INTELIGENTE CON AUDIO AMAZON ECHO SPOT BLANCO",
-    "Precio normal": 210900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/11/echoblnaco.jpg"
-  },
-  {
-    "ID": 4897,
-    "Nombre": "AMAZON KINDLE 11GEN 16GB 6\" BLACK 2024",
-    "Precio normal": 319200,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/12/amazon2024.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/amazon2024.png, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/B0CNV9F72P_800-1-1.jpg"
-  },
-  {
-    "ID": 4901,
-    "Nombre": "AMAZON FIRE TV STICK 3RD GEN WITH ALEXA VOICE REMOTE",
-    "Precio normal": 78660,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-12-at-6.29.50-PM.jpeg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/6272_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/6271_800.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/840080537252_800.jpg"
-  },
-  {
-    "ID": 4918,
-    "Nombre": "PARLANTE PORTATIL OONTZ ANGLE SOLO BLACK",
-    "Precio normal": 66120,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/12/71nlCQ5HJiL._AC_SX425_720x720.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/81CwSGZsmxL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/81HhCOG_dZL._AC_SX425_720x720-1.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/81jYd1nThGL._AC_SX425_720x720.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/81MpSjPMCfL._AC_SX425_720x720.webp"
-  },
-  {
-    "ID": 4925,
-    "Nombre": "PARLANTE PORTATIL OONTZ ANGLE 3 BLACK",
-    "Precio normal": 96900,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/12/angle3_listing_sideview1.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/angle3_listing_exploded_view.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/angle3_listing_handshot.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/angle3_listing_water.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/angle3_main_black.webp"
-  },
-  {
-    "ID": 4932,
-    "Nombre": "MICROFONO NOGANET MIC-308 PROFESIONAL",
-    "Precio normal": 44460,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2024/12/teclado-multimedia-usb-maxell-kb-100-pc-notebook-espanol-n-d_nq_np_615559-mla42904275895_072020-f31-d42d82edc615d1e6e015979558651593-640-0.webp, https://detodoinformatica.com.ar/wp-content/uploads/2024/12/D_NQ_NP_782646-MLA45345915179_032021-O.webp"
-  },
-  {
-    "ID": 4938,
-    "Nombre": "PARLANTE PORTATIL OONTZ CLIP BLACK",
-    "Precio normal": 111720,
-    "Imágenes": "https://detodoinformatica.com.ar/wp-content/uploads/2025/01/718j46kp6ZL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2025/01/81Y31OQwxDL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2025/01/71dX9xUp9IL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2025/01/71Avd5jByL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2025/01/71NV-ZTVqhL._AC_SX679_.jpg, https://detodoinformatica.com.ar/wp-content/uploads/2025/01/618uUqqlxNL._AC_SX679_.jpg"
-  }
-]
+      "id": 2505,
+      "nombre": "Auricular Jbl Tune Bt520 Black",
+      "precio": 98.72,
+      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/03/6925281969553_800.jpg"
+      }
+      ]
+
+
+
+
+
