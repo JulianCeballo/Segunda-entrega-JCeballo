@@ -8,7 +8,7 @@ const precioDolar = 1067;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
 // ✅ Cargamos productos desde JSON
-fetch("db/data.json")
+fetch("./db/data.json")
     .then(response => response.json())
     .then(data => {
         // Actualizamos la variable `articulos` con los datos del `fetch`
