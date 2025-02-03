@@ -50,11 +50,34 @@ function eliminarArticulo(id) {
 
 // Función para eliminar todo el carrito
 function eliminarTodoElCarrito() {
-    carritoStorage = [];
-    localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
-    renderizarCarrito();
+
+    Swal.fire({
+        title: '¿Estás seguro?',
+        text: "¡Esta acción vaciará todo el carrito!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Sí, vaciar carrito',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            carritoStorage = [];
+            localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
+            renderizarCarrito();
+            Swal.fire(
+                'Carrito vaciado',
+                'Tu carrito ha sido vaciado.',
+                'success'
+            );
+        }
+    });
 }
 
+
+
+
+ 
 // Función para finalizar la compra
 function finalizarCompra() {
     carritoTotal.innerText = "Gracias por tu compra";
