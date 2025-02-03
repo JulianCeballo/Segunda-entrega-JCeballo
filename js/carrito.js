@@ -58,10 +58,20 @@ function eliminarTodoElCarrito() {
 // Función para finalizar la compra
 function finalizarCompra() {
     carritoTotal.innerText = "Gracias por tu compra";
-    setTimeout(() => {
+
+    Swal.fire({
+        icon: 'success',
+        title: 'Compra realizada',
+        text: 'Gracias por tu compra',
+        timer: 3000,
+        showConfirmButton: false
+    }).then(() => {
         window.location.href = "../index.html";
-    }, 3000);
+    });
 }
+
+
+   
 
 // Eventos
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);

@@ -4,7 +4,7 @@ let carritoArticulos = JSON.parse(localStorage.getItem("carritoArticulos")) || [
 
 const productosSection = document.getElementById("lista-articulos");
 const cotizacion = document.getElementById("cotizacion");
-const precioDolar = 1067;
+const precioDolar = 1080;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
 // ✅ Cargamos productos desde JSON
@@ -75,3 +75,5 @@ function mostrarMensajeCarrito() {
         mensajeCarrito.style.display = "none";
     }, 2000);
 }
+
+
