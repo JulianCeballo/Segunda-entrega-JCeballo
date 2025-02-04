@@ -316,19 +316,8 @@
       "nombre": "Disco Externo WD Elements 2TB",
       "precio": 146.25,
       "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/01/4930_800.jpg"
-  },
-  {
-      "id": 2420,
-      "nombre": "RESMA 80 GR A4",
-      "precio": 7.96,
-      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/02/4930_800.jpg"
-  },
-  {
-      "id": 2505,
-      "nombre": "Auricular Jbl Tune Bt520 Black",
-      "precio": 98.72,
-      "imagenes": "https://detodoinformatica.com.ar/wp-content/uploads/2022/03/6925281969553_800.jpg"
-      }
+  }
+
       ]
 
 

@@ -7,45 +7,56 @@ body {
 }
 
 .logo {
+    
     position: absolute;
     left: 20px; /* Ajusta según sea necesario */
-    height: 70px; /* Ajusta la altura según sea necesario */
-    width: auto;  /* Mantiene la proporción del logo */
+    height: 70px; /*  altura */
+    width: auto;  /* proporción  */
 }
 
 header {
+    background-color: #2a8600;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #4caf50;
+  
     color: white;
     padding: 10px 20px;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000; /* Asegura que el header esté siempre encima del contenido */
+      
+    
 }
 
-h1 {
+
+
+header h1 {
     margin: 0;
     font-size: 24px;
     padding-left: 100px; /* Ajusta según sea necesario */
 }
 
-.cotizacion {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: white;
-    font-weight: bold;
+
+#cotizacion-title {
+    font-size: 14px;
+    margin: 5px;
 }
+
+#cotizacion {
+    font-size: 12px;
+    margin: 5px;
+}
+
 
 main {
     margin: 20px auto;
     max-width: 600px;
     padding-top: 30px; /* Asegura que el contenido no esté oculto detrás del header fijo */
 }
+
 
 /* Input de búsqueda */
 input {
@@ -63,7 +74,7 @@ input {
 
 .btn-carrito {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: #2a8600;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +90,7 @@ input {
 
 button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: #2a8600;
     color: white;
     border: none;
     cursor: pointer;
@@ -169,7 +180,7 @@ button:hover {
 }
 
 .footer-text {
-    color: #F5F5F5; /* Gris Claro */
+    color: #F5F5F5; 
 }
 
 .footer-link {
@@ -177,42 +188,74 @@ button:hover {
 }
 
 .footer-link:hover {
-    color: #FFEB3B; /* Amarillo Claro al pasar el mouse */
+    color: #dadada; 
 }
 
 .footer-title {
-    color: #FFFFFF; /* Blanco */
+    color: #FFFFFF; 
+
 }
 
+.search-bar {
+    width: 50%;
+    padding: 0 15px; /* Añadir padding para separación */
+}
+
+
 /* Media Query para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+
+    .search-bar {
+      
+        width: 50%; /* Ajusta el ancho de la barra de búsqueda en dispositivos móviles */
+    }
+.logo {
+    margin-top: -10px;
+
+
+
+}
+
+
+
     header {
         flex-direction: column;
         padding: 10px;
-    }
 
-    .logo {
-        position: relative;
-        left: 0;
-        height: 60px; /* Ajusta la altura según sea necesario */
-        margin-bottom: 10px;
-    }
+        h1 {
+            padding-left: 0;
+            text-align: center;
+            margin-bottom: 10px;
 
-    h1 {
-        padding-left: 0;
-        text-align: center;
-        margin-bottom: 10px;
+        }
+        
     }
-
-    .cotizacion {
-        position: relative;
-        margin-left: 0;
-        text-align: center;
-        margin-bottom: 10px;
-        top: 0;
-    }
-
+   
+       
     main {
         padding-top: 30px; /* Ajusta según sea necesario */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
