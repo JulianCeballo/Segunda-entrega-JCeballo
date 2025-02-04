@@ -153,6 +153,21 @@ button:hover {
     text-align: left;
 }
 
+.sumar-articulo {    
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+
+}
+
+
+
 
 .eliminar-articulo {
     background-color: red;
@@ -212,8 +227,6 @@ button:hover {
 .logo {
     margin-top: -10px;
 
-
-
 }
 
 
@@ -226,7 +239,6 @@ button:hover {
             padding-left: 0;
             text-align: center;
             margin-bottom: 10px;
-
         }
         
     }
