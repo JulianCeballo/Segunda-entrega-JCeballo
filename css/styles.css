@@ -161,15 +161,17 @@ button:hover {
     cursor: pointer;
     border-radius: 5px;
 
+}
 
-
-
+.sumar-articulo:hover {
+    background-color: #2a8600;
 }
 
 
 
 
-.eliminar-articulo {
+
+.restar-articulo {
     background-color: red;
     color: white;
     border: none;
@@ -179,7 +181,7 @@ button:hover {
     margin-left: 10px;
 }
 
-.eliminar-articulo:hover {
+.restar-articulo:hover {
     background-color: darkred;
 }
 

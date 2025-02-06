@@ -24,7 +24,8 @@ function renderizarCarrito() {
             <img src="${articulo.imagenes}" alt="${articulo.nombre}" style="width: 100px; height: 100px;">
             <p>Precio: $${(articulo.precio * articulo.cantidad).toFixed(2)}</p>
             <p>Cantidad: ${articulo.cantidad}</p>
-            <button class="eliminar-articulo" data-id="${articulo.id}">Eliminar</button>
+            <button class="restar-articulo" data-id="${articulo.id}">Restar</button>
+            <button class="sumar-articulo" data-id="${articulo.id}">Sumar</button> 
         `;
 
         carritoLista.appendChild(item);
@@ -33,24 +34,36 @@ function renderizarCarrito() {
 
     carritoTotal.innerText = `Total U$: $${total.toFixed(2)} | Pesos $${(total * precioDolar).toFixed(2)}`;
 
-    // Agregar eventos a los botones de eliminar
-    document.querySelectorAll(".eliminar-articulo").forEach((btn) => {
+    // Agregar eventos a los botones de restar y sumar
+    document.querySelectorAll(".restar-articulo").forEach((btn) => {
         btn.addEventListener("click", (e) => {
-            eliminarArticulo(e.target.dataset.id);
+            actualizarCantidadArticulo(e.target.dataset.id, -1);
+        });
+    });
+
+    document.querySelectorAll(".sumar-articulo").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            actualizarCantidadArticulo(e.target.dataset.id, 1);
         });
     });
 }
 
-// Función para eliminar un solo artículo del carrito
-function eliminarArticulo(id) {
-    carritoStorage = carritoStorage.filter((articulo) => articulo.id != id);
-    localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
-    renderizarCarrito();
+// Función para actualizar la cantidad de un artículo en el carrito
+function actualizarCantidadArticulo(id, cambio) {
+    const articulo = carritoStorage.find((articulo) => articulo.id == id);
+    if (articulo) {
+        articulo.cantidad += cambio;
+        if (articulo.cantidad <= 0) {
+            // Si la cantidad es 0 o menor, eliminar el artículo del carrito
+            carritoStorage = carritoStorage.filter((art) => art.id != id);
+        }
+        localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
+        renderizarCarrito();
+    }
 }
 
 // Función para eliminar todo el carrito
 function eliminarTodoElCarrito() {
-
     Swal.fire({
         title: '¿Estás seguro?',
         text: "¡Esta acción vaciará todo el carrito!",
@@ -74,10 +87,6 @@ function eliminarTodoElCarrito() {
     });
 }
 
-
-
-
- 
 // Función para finalizar la compra
 function finalizarCompra() {
     carritoTotal.innerText = "Gracias por tu compra";
@@ -92,9 +101,6 @@ function finalizarCompra() {
         window.location.href = "../index.html";
     });
 }
-
-
-   
 
 // Eventos
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
