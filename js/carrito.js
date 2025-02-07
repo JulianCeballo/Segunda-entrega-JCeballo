@@ -6,6 +6,8 @@ const finalizarCompraBtn = document.querySelector("#finalizar-compra");
 
 let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
+
+
 // Función para renderizar el carrito
 function renderizarCarrito() {
     carritoLista.innerHTML = ""; // Limpiar antes de renderizar
@@ -47,6 +49,8 @@ function renderizarCarrito() {
         });
     });
 }
+
+
 
 // Función para actualizar la cantidad de un artículo en el carrito
 function actualizarCantidadArticulo(id, cambio) {

@@ -213,6 +213,12 @@ button:hover {
 
 }
 
+.input-group {
+    width: 50%;
+}
+
+
+
 .search-bar {
     width: 50%;
     padding: 0 15px; /* Añadir padding para separación */
