@@ -7,7 +7,6 @@ body {
 }
 
 .logo {
-    
     position: absolute;
     left: 20px; /* Ajusta según sea necesario */
     height: 70px; /*  altura */
@@ -20,25 +19,19 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-  
     color: white;
     padding: 10px 20px;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000; /* Asegura que el header esté siempre encima del contenido */
-      
-    
 }
-
-
 
 header h1 {
     margin: 0;
     font-size: 24px;
     padding-left: 100px; /* Ajusta según sea necesario */
 }
-
 
 #cotizacion-title {
     font-size: 14px;
@@ -50,13 +43,11 @@ header h1 {
     margin: 5px;
 }
 
-
 main {
     margin: 20px auto;
     max-width: 600px;
     padding-top: 30px; /* Asegura que el contenido no esté oculto detrás del header fijo */
 }
-
 
 /* Input de búsqueda */
 input {
@@ -79,7 +70,6 @@ input {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-
     position: relative;
     top: -10px; /* Sube el botón 10px */
 }
@@ -160,16 +150,11 @@ button:hover {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
-
 }
 
 .sumar-articulo:hover {
     background-color: #2a8600;
 }
-
-
-
-
 
 .restar-articulo {
     background-color: red;
@@ -184,7 +169,6 @@ button:hover {
 .restar-articulo:hover {
     background-color: darkred;
 }
-
 
 #total-carrito {
     font-size: 1.2em;
@@ -210,72 +194,60 @@ button:hover {
 
 .footer-title {
     color: #FFFFFF; 
-
 }
 
 .input-group {
     width: 50%;
 }
 
-
-
 .search-bar {
     width: 50%;
     padding: 0 15px; /* Añadir padding para separación */
 }
 
+/* Estilos personalizados para el login */
+.login-container {
+    position: relative;
+}
+
+.login-form-container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-container.d-none {
+    display: none;
+}
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 576px) {
-
     .search-bar {
-      
         width: 50%; /* Ajusta el ancho de la barra de búsqueda en dispositivos móviles */
     }
-.logo {
-    margin-top: -10px;
-
-}
-
-
-
+    .logo {
+        margin-top: -10px;
+    }
+    .login-container {
+        width: 100%; /* Ocupa todo el ancho */
+        text-align: right;
+        margin-top: -35px;
+    }
     header {
         flex-direction: column;
         padding: 10px;
-
         h1 {
             padding-left: 0;
             text-align: center;
             margin-bottom: 10px;
         }
-        
     }
-   
-       
     main {
         padding-top: 30px; /* Ajusta según sea necesario */
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -72,13 +72,16 @@ function addCartButton() {
                 position: "center", // `left`, `center` o `right`
                 stopOnFocus: false, // Previene que se cierre al hacer hover
                 style: {
-                    background: "linear-gradient(to right, #00b09b, #96c93d)",
+                    background: "linear-gradient(to right, #00b09b, #0069D9)",
                 },
                 onClick: function(){} // Callback después de click
             }).showToast();  
         };
     });
 }
+
+
+
 
 
 

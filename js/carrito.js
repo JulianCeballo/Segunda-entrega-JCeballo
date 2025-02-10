@@ -104,7 +104,14 @@ function finalizarCompra() {
     }).then(() => {
         window.location.href = "../index.html";
     });
+
+   
 }
+
+
+
+
+
 
 // Eventos
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
