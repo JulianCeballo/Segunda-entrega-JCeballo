@@ -102,7 +102,12 @@ function finalizarCompra() {
         timer: 3000,
         showConfirmButton: false
     }).then(() => {
+        // Vaciar el carrito
+        carritoStorage = [];
+        localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
+        renderizarCarrito();
         window.location.href = "../index.html";
+        
     });
 }
 
