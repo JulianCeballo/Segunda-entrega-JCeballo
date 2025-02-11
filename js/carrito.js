@@ -4,6 +4,8 @@ const carritoTotal = document.getElementById("total-carrito");
 const eliminarCarritoBtn = document.querySelector("#eliminar-carrito");
 const finalizarCompraBtn = document.querySelector("#finalizar-compra");
 
+const btnGenerarPDF = document.querySelector("#btn-generar-pdf");
+
 let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
 
 
@@ -91,6 +93,37 @@ function eliminarTodoElCarrito() {
     });
 }
 
+
+
+
+
+// Función para generar el PDF
+function generarPDF() {
+    const doc = new jspdf.jsPDF();
+    doc.setFontSize(18);
+    doc.text("Detalles de la Compra", 10, 10);
+
+    
+    let y = 30; // Ajustar la posición vertical
+    doc.setFontSize(12);
+    carritoStorage.forEach((articulo, index) => {
+        const texto = `${index + 1}. ${articulo.nombre} - $${articulo.precio.toFixed(2)} x ${articulo.cantidad}`;
+        doc.text(texto, 10, y);
+        y += 10;
+    });
+
+    const total = carritoStorage.reduce((sum, articulo) => sum + articulo.precio * articulo.cantidad, 0);
+    doc.setFontSize(14);
+    doc.text(`Total U$: $${total.toFixed(2)}`, 10, y + 10);
+    doc.text(`Total Pesos: $${(total * precioDolar).toFixed(2)}`, 10, y + 20);
+
+    doc.save("comprobante_compra.pdf");
+}
+
+console.log(generarPDF);
+
+
+
 // Función para finalizar la compra
 function finalizarCompra() {
     carritoTotal.innerText = "Gracias por tu compra";
@@ -102,10 +135,15 @@ function finalizarCompra() {
         timer: 3000,
         showConfirmButton: false
     }).then(() => {
+         // Vacio el carrito por que ya se realizó la compra
+         carritoStorage = [];
+         localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
+         renderizarCarrito();
+
+      
         window.location.href = "../index.html";
     });
-
-   
+ 
 }
 
 
@@ -116,6 +154,7 @@ function finalizarCompra() {
 // Eventos
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
 finalizarCompraBtn.addEventListener("click", finalizarCompra);
+
 
 // Renderizar carrito al cargar la página
 renderizarCarrito();
