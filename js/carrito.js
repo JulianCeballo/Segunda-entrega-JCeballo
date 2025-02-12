@@ -3,12 +3,9 @@ const carritoLista = document.getElementById("carrito-lista");
 const carritoTotal = document.getElementById("total-carrito");
 const eliminarCarritoBtn = document.querySelector("#eliminar-carrito");
 const finalizarCompraBtn = document.querySelector("#finalizar-compra");
-
 const btnGenerarPDF = document.querySelector("#btn-generar-pdf");
 
 let carritoStorage = JSON.parse(localStorage.getItem("carritoArticulos")) || [];
-
-
 
 // Función para renderizar el carrito
 function renderizarCarrito() {
@@ -25,7 +22,6 @@ function renderizarCarrito() {
         const item = document.createElement("li");
         item.innerHTML = `
             <h3>${articulo.nombre}</h3>
-            <img src="${articulo.imagenes}" alt="${articulo.nombre}" style="width: 100px; height: 100px;">
             <p>Precio: $${(articulo.precio * articulo.cantidad).toFixed(2)}</p>
             <p>Cantidad: ${articulo.cantidad}</p>
             <button class="restar-articulo" data-id="${articulo.id}">Restar</button>
@@ -51,8 +47,6 @@ function renderizarCarrito() {
         });
     });
 }
-
-
 
 // Función para actualizar la cantidad de un artículo en el carrito
 function actualizarCantidadArticulo(id, cambio) {
@@ -93,37 +87,6 @@ function eliminarTodoElCarrito() {
     });
 }
 
-
-
-
-
-// Función para generar el PDF
-function generarPDF() {
-    const doc = new jspdf.jsPDF();
-    doc.setFontSize(18);
-    doc.text("Detalles de la Compra", 10, 10);
-
-    
-    let y = 30; // Ajustar la posición vertical
-    doc.setFontSize(12);
-    carritoStorage.forEach((articulo, index) => {
-        const texto = `${index + 1}. ${articulo.nombre} - $${articulo.precio.toFixed(2)} x ${articulo.cantidad}`;
-        doc.text(texto, 10, y);
-        y += 10;
-    });
-
-    const total = carritoStorage.reduce((sum, articulo) => sum + articulo.precio * articulo.cantidad, 0);
-    doc.setFontSize(14);
-    doc.text(`Total U$: $${total.toFixed(2)}`, 10, y + 10);
-    doc.text(`Total Pesos: $${(total * precioDolar).toFixed(2)}`, 10, y + 20);
-
-    doc.save("comprobante_compra.pdf");
-}
-
-console.log(generarPDF);
-
-
-
 // Función para finalizar la compra
 function finalizarCompra() {
     carritoTotal.innerText = "Gracias por tu compra";
@@ -135,25 +98,50 @@ function finalizarCompra() {
         timer: 3000,
         showConfirmButton: false
     }).then(() => {
-         // Vacio el carrito por que ya se realizó la compra
-         carritoStorage = [];
-         localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
-         renderizarCarrito();
-
-      
+        // Vaciar el carrito porque ya se realizó la compra
+        carritoStorage = [];
+        localStorage.setItem("carritoArticulos", JSON.stringify(carritoStorage));
+        renderizarCarrito();
         window.location.href = "../index.html";
+       
     });
- 
 }
 
+// Función para generar el PDF
+function generarPDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    let y = 10;
+
+    doc.text("Detalle de la Compra Detodo Informatica" , 10, y);
+    y += 10;
+
+    carritoStorage.forEach((articulo, index) => {
+        const texto = `${index + 1}. ${articulo.nombre} - $${articulo.precio.toFixed(2)} x ${articulo.cantidad}`;
+        doc.text(texto, 10, y);
+        y += 10;
+
+        const fechaActual = new Date().toLocaleDateString(); // Obtener la fecha actual
+        doc.text(`Fecha de compra: ${fechaActual}`, 10, y);
+        y += 10;
+
+        
 
 
+    });
 
+    const total = carritoStorage.reduce((sum, articulo) => sum + articulo.precio * articulo.cantidad, 0);
+    doc.text(`Total U$: $${total.toFixed(2)}`, 10, y + 10);
+    doc.text(`Total Pesos: $${(total * precioDolar).toFixed(2)}`, 10, y + 20);
+    doc.text(`Cotización del dólar: $${precioDolar.toFixed(2)}`, 10, y + 30);
 
+    doc.save("comprobante_compra.pdf");
+}
 
 // Eventos
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
 finalizarCompraBtn.addEventListener("click", finalizarCompra);
+btnGenerarPDF.addEventListener("click", generarPDF);
 
 
 // Renderizar carrito al cargar la página
