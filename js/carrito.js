@@ -48,6 +48,11 @@ function renderizarCarrito() {
     });
 }
 
+
+
+
+
+
 // Función para actualizar la cantidad de un artículo en el carrito
 function actualizarCantidadArticulo(id, cambio) {
     const articulo = carritoStorage.find((articulo) => articulo.id == id);
@@ -142,6 +147,9 @@ function generarPDF() {
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
 finalizarCompraBtn.addEventListener("click", finalizarCompra);
 btnGenerarPDF.addEventListener("click", generarPDF);
+
+
+
 
 
 // Renderizar carrito al cargar la página
