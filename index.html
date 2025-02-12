@@ -5,48 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeTodoInformatica</title>
     <link rel="stylesheet" href="./css/styles.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     
+    <!-- Bootstrap -->  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+
     <script defer src="js/main.js"></script>
     <script defer src="js/carrito.js"></script>
+    <script defer src="js/login.js"> </script>
 </head>
+
 <body>
-    <header>
-        <h1 >Distribuyendo tecnología
-            <img class="logo" src="./img/logotipo blanco2.png" alt="">
-            <header>
-    
-        </h1>
+  
 
+    <header class="custom-header p-3 d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <img class="logo" src="./img/logotipo blanco2.png" alt="" style="height: 50px;">
+            <h1 class="ml-3">DeTodoInformatica</h1>
+        </div>
+        <div class="input-group search-bar">
+            <input type="text" id="buscador" class="form-control" placeholder="Buscar productos...">
+            <div class="input-group-append">
+                <button class="btn btn-warning" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+            <div class="cotizacion-container">
+             
+                <p id="cotizacion" class="cotizacion"></p>
+                <a class="btn btn-outline-light" href="./page/carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+            </div>
 
-        <p id="cotizacion" class="cotizacion"> Cotizacion dolar </p>
+             
+                 <!-- login  -->
+        <div class="login-container ml-4">
+            <button id="login-btn" class="btn btn-outline-light">
+                Iniciar Sesión
+            </button>
+            <div id="login-form-container" class="login-form-container d-none">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="nombre">Usuario:</label>
+                        <input type="text" id="nombre" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Ingresar</button>
+                </form>
+                <button id="logout-btn" class="btn btn-danger btn-block d-none">Cerrar sesión</button>
+            </div>
+        </div>
+            
+                      
+        
     </header>
-    <main>
+
+    <main class="container mt-4">
         <section id="productos-section">
-            <div class="carri">
-                <a class="btn-carrito" href="./page/carrito.html">Ir al carrito</a>
+            <div class="carri mb-3">
+                <a class="btn-carrito btn btn-primary" href="./page/carrito.html">Ir al carrito</a>
             </div>
             <h3>Artículos</h3>
-            <input type="text" id="buscador" placeholder="Buscar productos...">
             <div id="lista-articulos"></div>
             <div id="mensaje-carrito" style="display: none; color: green;"></div> <!-- Mensaje para el carrito -->
         </section>
     </main>
 
-     <!-- Footer -->
-     <footer class="footer-bg text-white pt-4">
+    <!-- Footer -->
+    <footer class="footer-bg text-white pt-4 mt-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h5 class="text-uppercase footer-title">DeTodoInformatica</h5>
+                    <h4 class="text-uppercase footer-title">DeTodoInformatica</h4>
                     <p class="footer-text">Tu tienda de informática de confianza.</p>
                 </div>
                 <div class="col-md-6 text-md-right">
+
                     <h5 class="text-uppercase footer-title">Síguenos</h5>
-                    <a href=" https://www.instagram.com/detodoinformatica/" target="_blank" class="footer-link ml-2">
+                    <a href="https://www.instagram.com/detodoinformatica/" target="_blank" class="footer-link ml-2">
                         <i class="fab fa-instagram fa-2x"></i>
                     </a>
                     <a href="https://wa.me/message/6YR54S4GEATPF1" target="_blank" class="footer-link ml-2">
@@ -62,10 +104,21 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+    <!-- SweetAlert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+
+
 </body>
 </html>

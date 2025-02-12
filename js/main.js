@@ -7,11 +7,11 @@ const cotizacion = document.getElementById("cotizacion");
 const precioDolar = 1080;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
-// ✅ Cargamos productos desde JSON
-fetch("./db/data.json")
+// Cargamos desde JSON
+fetch("db/data.json")
     .then(response => response.json())
     .then(data => {
-        // Actualizamos la variable `articulos` con los datos del `fetch`
+        // Actualizamos la variable `articulos` con datos `fetch`
         articulos.push(...data);
         renderizarArticulos(articulos);  // Renderizamos los productos cargados en el DOM
     })
@@ -61,19 +61,30 @@ function addCartButton() {
             }
 
             localStorage.setItem("carritoArticulos", JSON.stringify(carritoArticulos));
-            mostrarMensajeCarrito();
+
+            // Mostrar mensaje con Toastify
+            Toastify({
+                text: `🛒 ${articuloSeleccionado.nombre} añadido al carrito.`,
+                duration: 3000,
+                newWindow: true,
+                close: false,
+                gravity: "bottom", // `top` or `bottom`
+                position: "center", // `left`, `center` o `right`
+                stopOnFocus: false, // Previene que se cierre al hacer hover
+                style: {
+                    background: "linear-gradient(to right, #00b09b, #0069D9)",
+                },
+                onClick: function(){} // Callback después de click
+            }).showToast();  
         };
     });
 }
 
-// Función para mostrar un mensaje cuando se añade un artículo al carrito
-function mostrarMensajeCarrito() {
-    const mensajeCarrito = document.getElementById("mensaje-carrito");
-    mensajeCarrito.style.display = "block";
-    mensajeCarrito.innerHTML = "Artículo añadido al carrito.";
-    setTimeout(() => {
-        mensajeCarrito.style.display = "none";
-    }, 2000);
-}
+
+
+
+
+
+
 
 

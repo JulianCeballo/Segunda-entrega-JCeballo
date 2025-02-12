@@ -5,68 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito - DeTodoInformatica</title>
     <link rel="stylesheet" href="../css/styles.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    
+    <!-- Convertidor a PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     
     <script defer src="../js/main.js"></script>
     <script defer src="../js/carrito.js"></script>
-    
-       
+    <script defer src="../js/login.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Carrito de Compras <img class="logo" src="../img/logotipo blanco2.png" alt=""></h1>
-        <p id="cotizacion" class="cotizacion"></p>
-    </header>
-    <main>
-        <div>
-            <a class="btn-carrito" href="../index.html">Volver a Artículos</a>
+    <header class="custom-header p-3 d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <img class="logo" src="../img/logotipo blanco2.png" alt="" style="height: 50px;">
+            <h1 class="ml-3">DeTodoInformatica</h1>
         </div>
+        <div class="input-group search-bar">
+            <input type="text" id="buscador" class="form-control" placeholder="Buscar productos...">
+            <div class="input-group-append">
+                <button class="btn btn-warning" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div>
+            <a class="btn btn-outline-light" href="../index.html"><i class="fas fa-shopping-cart"></i> Volver a Artículos</a>
+        </div>
+        <p id="cotizacion" class="cotizacion"> Cotización dólar </p>
+        
+        <!-- login -->
+        <div class="login-container ml-4">
+            <button id="login-btn" class="btn btn-outline-light">
+                Iniciar Sesión
+            </button>
+            <div id="login-form-container" class="login-form-container d-none">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="nombre">Usuario:</label>
+                        <input type="text" id="nombre" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Ingresar</button>
+                </form>
+                <button id="logout-btn" class="btn btn-danger btn-block d-none">Cerrar sesión</button>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-4">
         <div id="carrito-contenido">
             <h3>Artículos en el carrito:</h3>
-            <ul id="carrito-lista"></ul>
-            <p id="total-carrito">Total: $0.00</p>
-            <button id="finalizar-compra">Finalizar Compra</button>
-
-             <!-- Botón para eliminar todo el carrito -->
-             <button id="eliminar-carrito">Eliminar Carrito</button>
-           
-             <!-- Contenedor para el mensaje de agradecimiento -->
-            <div id="mensaje-compra" style="display: none;"></div>
-
+            <ul id="carrito-lista" class="list-group"></ul>
+            <p id="total-carrito" class="font-weight-bold">Total: $0.00</p>
+            <button id="finalizar-compra" class="btn btn-success">Finalizar Compra</button>
+            <button id="eliminar-carrito" class="btn btn-danger">Eliminar Carrito</button>
+            <div id="mensaje-compra" style="display: none;"></div> <!-- Contenedor para el mensaje de agradecimiento -->
+            <button id="btn-generar-pdf" class="btn btn-secondary">Generar PDF</button>
         </div>
     </main>
-
-
-<!-- Footer -->
-<footer class="footer-bg text-white pt-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h5 class="text-uppercase footer-title">DeTodoInformatica</h5>
-                <p class="footer-text">Tu tienda de informática de confianza.</p>
+    <footer class="footer-bg text-white pt-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-uppercase footer-title">DeTodoInformatica</h4>
+                    <p class="footer-text">Tu tienda de informática de confianza.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <h5 class="text-uppercase footer-title">Síguenos</h5>
+                    <a href="https://www.instagram.com/detodoinformatica/" target="_blank" class="footer-link ml-2">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://wa.me/message/6YR54S4GEATPF1" target="_blank" class="footer-link ml-2">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
             </div>
-            <div class="col-md-6 text-md-right">
-                <h5 class="text-uppercase footer-title">Síguenos</h5>
-                <a href=" https://www.instagram.com/detodoinformatica/" target="_blank" class="footer-link ml-2">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
-                <a href="https://wa.me/message/6YR54S4GEATPF1" target="_blank" class="footer-link ml-2">
-                    <i class="fab fa-whatsapp fa-2x"></i>
-                </a>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-md-12 text-center">
-                <p class="footer-text">&copy; 2025 DeTodoInformatica. Todos los derechos reservados.</p>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="footer-text">&copy; 2025 DeTodoInformatica. Todos los derechos reservados.</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
