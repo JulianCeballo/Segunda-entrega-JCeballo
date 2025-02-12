@@ -116,16 +116,16 @@ function generarPDF() {
     doc.text("Detalle de la Compra Detodo Informatica" , 10, y);
     y += 10;
 
+    const fechaActual = new Date().toLocaleDateString(); // Obtener la fecha actual
+    doc.text(`Fecha de compra: ${fechaActual}`, 10, y);
+    y += 10;
+
+
     carritoStorage.forEach((articulo, index) => {
         const texto = `${index + 1}. ${articulo.nombre} - $${articulo.precio.toFixed(2)} x ${articulo.cantidad}`;
         doc.text(texto, 10, y);
         y += 10;
-
-        const fechaActual = new Date().toLocaleDateString(); // Obtener la fecha actual
-        doc.text(`Fecha de compra: ${fechaActual}`, 10, y);
-        y += 10;
-
-        
+          
 
 
     });
