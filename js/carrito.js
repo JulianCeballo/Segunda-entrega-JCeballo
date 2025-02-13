@@ -67,7 +67,7 @@ function actualizarCantidadArticulo(id, cambio) {
 }
 
 // Función para eliminar todo el carrito
-function eliminarTodoElCarrito() {
+function eliminarTodoelcarrito() {
     Swal.fire({
         title: '¿Estás seguro?',
         text: "¡Esta acción vaciará todo el carrito!",
@@ -107,7 +107,7 @@ function finalizarCompra() {
 }
 
 // Eventos
-eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
+eliminarCarritoBtn.addEventListener("click", eliminarTodoelcarrito);
 finalizarCompraBtn.addEventListener("click", finalizarCompra);
 
 // Renderizar carrito al cargar la página

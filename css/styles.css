@@ -1,4 +1,5 @@
 /* General */
+
 body { 
     font-family: Arial, sans-serif;
     text-align: center;
@@ -223,6 +224,8 @@ button:hover {
     width: 50%;
     padding: 0 15px; /* Añadir padding para separación */
 }
+
+
 
 
 /* Media Query para dispositivos móviles */
