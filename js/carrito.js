@@ -50,8 +50,6 @@ function renderizarCarrito() {
 
 
 
-
-
 // Función para actualizar la cantidad de un artículo en el carrito
 function actualizarCantidadArticulo(id, cambio) {
     const articulo = carritoStorage.find((articulo) => articulo.id == id);
