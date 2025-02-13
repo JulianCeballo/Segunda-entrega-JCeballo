@@ -52,7 +52,6 @@ function renderizarCarrito() {
 
 
 
-
 // Función para actualizar la cantidad de un artículo en el carrito
 function actualizarCantidadArticulo(id, cambio) {
     const articulo = carritoStorage.find((articulo) => articulo.id == id);
@@ -112,6 +111,9 @@ function finalizarCompra() {
     });
 }
 
+
+
+
 // Función para generar el PDF
 function generarPDF() {
     const { jsPDF } = window.jspdf;
@@ -147,8 +149,6 @@ function generarPDF() {
 eliminarCarritoBtn.addEventListener("click", eliminarTodoElCarrito);
 finalizarCompraBtn.addEventListener("click", finalizarCompra);
 btnGenerarPDF.addEventListener("click", generarPDF);
-
-
 
 
 
