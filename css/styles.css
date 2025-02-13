@@ -7,6 +7,7 @@ body {
 }
 
 .logo {
+    
     position: absolute;
     left: 20px; /* Ajusta según sea necesario */
     height: 70px; /* altura */
@@ -19,13 +20,17 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+  
     color: white;
     padding: 10px 20px;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000; /* Asegura que el header esté siempre encima del contenido */
+      
+    
 }
+
 
 header h1 {
     margin: 0;
@@ -33,21 +38,22 @@ header h1 {
     padding-left: 100px; /* Ajusta según sea necesario */
 }
 
-#cotizacion-title {
-    font-size: 14px;
-    margin: 5px;
-}
+
 
 #cotizacion {
     font-size: 12px;
     margin: 5px;
+    
 }
+
+
 
 main {
     margin: 20px auto;
     max-width: 600px;
     padding-top: 30px; /* Asegura que el contenido no esté oculto detrás del header fijo */
 }
+
 
 /* Input de búsqueda */
 input {
@@ -70,6 +76,7 @@ input {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+
     position: relative;
     top: -10px; /* Sube el botón 10px */
 }
@@ -150,11 +157,16 @@ button:hover {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
+
 }
 
 .sumar-articulo:hover {
     background-color: #2a8600;
 }
+
+
+
+
 
 .restar-articulo {
     background-color: red;
@@ -169,6 +181,7 @@ button:hover {
 .restar-articulo:hover {
     background-color: darkred;
 }
+
 
 #total-carrito {
     font-size: 1.2em;
@@ -194,16 +207,38 @@ button:hover {
 
 .footer-title {
     color: #FFFFFF; 
+
 }
 
 .input-group {
     width: 50%;
 }
 
+
+
 .search-bar {
     width: 50%;
-    padding: 0 15px; /* Añadir padding para separación */
+    padding: 0 15px; /* padding  separación */
 }
+
+.fixed-whatsapp {
+    position: fixed;
+    bottom: 20px; /* Ajustar  */
+    right: 20px;  /* Ajustar */
+    z-index: 1000; /* botón esté siempre encima del contenido */
+    background-color: #25D366; /* Color de fondo típico de WhatsApp */
+    color: white; /* Color del ícono */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 24px;
+}
+
+.fixed-whatsapp:hover {
+    background-color: #128C7E; /* Color de fondo al pasar el ratón */
+}
+
 
 /* Estilos personalizados para el login */
 .login-container {
@@ -243,29 +278,60 @@ button:hover {
     background-color: #128C7E; /* Color de fondo al pasar el ratón */
 }
 
-/* Media Query para dispositivos móviles */
+
 @media (max-width: 576px) {
-    .search-bar {
-        width: 50%; /* Ajusta el ancho de la barra de búsqueda en dispositivos móviles */
-    }
-    .logo {
-        margin-top: -10px;
-    }
-    .login-container {
-        width: 100%; /* Ocupa todo el ancho */
-        text-align: right;
-        margin-top: -35px;
-    }
+
+    /* Ajustes para el Header */
     header {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         padding: 10px;
-        h1 {
-            padding-left: 0;
-            text-align: center;
-            margin-bottom: 10px;
-        }
     }
+
+    .logo {
+        order: 1;
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #cotizacion {
+        order: 2;
+        flex: 1;
+        text-align: left;
+    }
+
+      
+    .boton-volver-carrito {
+        order: 3;
+        flex: 1;
+        text-align: left;
+    }
+
+    .boton-carrito {
+        order: 4;
+        flex: 1;
+        text-align: left;
+    }
+
+    .login-container {
+        order: 5;
+        flex: 1;
+        text-align: right;
+    }
+
+    .search-bar {
+        order: 6;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    /* Ajustes de Espaciado */
+ 
+
     main {
-        padding-top: 30px; /* Ajusta según sea necesario */
+        padding-top: 10px;
     }
 }

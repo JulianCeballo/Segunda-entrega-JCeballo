@@ -7,7 +7,7 @@ const cotizacion = document.getElementById("cotizacion");
 const precioDolar = 1080;
 cotizacion.innerHTML = `Cotización del Dólar: $${precioDolar}`;
 
-// Cargamos desde JSON
+// Cargamos desde JSON , imagenes externas -
 fetch("db/data.json")
     .then(response => response.json())
     .then(data => {
@@ -45,7 +45,7 @@ buscador.addEventListener("input", () => {
     renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
 });
 
-// Función para agregar eventos a los botones de agregar al carrito
+// Función para agregar eventos , y agregar al carrito
 function addCartButton() {
     const buttons = document.querySelectorAll(".articulosagregar");
     buttons.forEach((button) => {
