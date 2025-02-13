@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
+    // inicio de secion , sin condiciones para navegar en la tienda y efectuar la compra  
+    // usuario : julian    contraseña : 123
+    
+    document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.getElementById("login-form");
     const loginBtn = document.getElementById("login-btn");
     const logoutBtn = document.getElementById("logout-btn");
