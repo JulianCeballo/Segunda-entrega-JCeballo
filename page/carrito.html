@@ -16,50 +16,63 @@
     <script defer src="../js/login.js"></script>
 </head>
 
-<!-- Body -->
 <body>
     
 <!-- Header -->  
 
-    <header class="custom-header p-3 d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center">
-            <img class="logo" src="../img/logotipo blanco2.png" alt="" style="height: 50px;">
-            <h1 class="ml-3">DeTodoInformatica</h1>
-        </div>
-        <div class="input-group search-bar">
-            <input type="text" id="buscador" class="form-control" placeholder="Buscar productos...">
-            <div class="input-group-append">
-                <button class="btn btn-warning" type="button"><i class="fas fa-search"></i></button>
-            </div>
-        </div>
-        <div>
-            <a class="btn btn-outline-light" href="../index.html"><i class="fas fa-shopping-cart"></i> Volver a Artículos</a>
-        </div>
-
-        
-        <p id="cotizacion" class="cotiza"> Cotización dólar </p>
-            
-
-        <!-- login -->
-        <div class="login-container ml-4">
-            <button id="login-btn" class="btn btn-outline-light">
-                Iniciar Sesión
+    <header class="custom-header p-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">DeTodoInformatica</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="login-form-container" class="login-form-container d-none">
-                <form id="login-form">
-                    <div class="form-group">
-                        <label for="nombre">Usuario:</label>
-                        <input type="text" id="nombre" class="form-control" required>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ofertas.html">Ofertas</a>
+                    </li>
+                </ul>
+                <div class="input-group search-bar">
+                    <input type="text" id="buscador" class="form-control" placeholder="Buscar productos...">
+                    <div class="input-group-append">
+                        <button class="btn btn-warning" type="button"><i class="fas fa-search"></i></button>
                     </div>
-                    <div class="form-group">
-                        <label for="contraseña">Contraseña:</label>
-                        <input type="password" id="contraseña" class="form-control" required>
+                </div>
+                <div class="cotizacion-container ml-3">
+                    <p id="cotizacion" class="cotiza mb-0">Cotización dólar</p>
+                    <a class="btn btn-outline-light" href="../index.html"><i class="fas fa-shopping-cart"></i> Volver a Artículos</a>
+                </div>
+                <!-- login -->
+                <div class="login-container ml-4">
+                    <button id="login-btn" class="btn btn-outline-light">
+                        Iniciar Sesión
+                    </button>
+                    <div id="login-form-container" class="login-form-container d-none">
+                        <form id="login-form" class="form-inline">
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="nombre" class="sr-only">Usuario:</label>
+                                <input type="text" id="nombre" class="form-control" placeholder="Usuario" required>
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="contraseña" class="sr-only">Contraseña:</label>
+                                <input type="password" id="contraseña" class="form-control" placeholder="Contraseña" required>
+                            </div>
+                            <button type="submit" class="btn btn-success mb-2">Ingresar</button>
+                        </form>
+                        <button id="logout-btn" class="btn btn-danger mb-2 d-none">Cerrar sesión</button>
                     </div>
-                    <button type="submit" class="btn btn-success btn-block">Ingresar</button>
-                </form>
-                <button id="logout-btn" class="btn btn-danger btn-block d-none">Cerrar sesión</button>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <!-- Main -->
