@@ -35,6 +35,19 @@ function renderizarArticulos(articulos) {
     addCartButton();
 }
 
+// Búsqueda
+const buscador = document.getElementById("buscador");
+buscador.addEventListener("input", () => {
+    const filtro = buscador.value.toLowerCase();  // Obtener el texto de la búsqueda
+    const articulosFiltrados = articulos.filter(({ nombre }) => 
+        nombre.toLowerCase().includes(filtro)  // Filtrar artículos que contengan el texto
+    );
+    renderizarArticulos(articulosFiltrados);  // Renderizar los artículos filtrados
+});
+
+
+
+
 
 // Función para agregar eventos , y agregar al carrito
 function addCartButton() {
